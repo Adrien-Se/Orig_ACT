@@ -1,0 +1,25 @@
+####################################################################
+# Configuration file for Sycamore 4th Order Bessel 400 Hz filter   #
+#    Fc(-3dB)=400Hz;                                               #
+####################################################################
+/Filter
+
+	Name:					Sycamore_400Hz
+	Description:			Bessel 4 Pole 400 Hz
+	Type:					Pole Filter
+	Direct Transfer:		0
+	Gain:					1.0
+
+	/Complex Pole
+		PoleRealPart:			-2505.707527665263
+		PoleImaginaryPart:		 3165.104073896712
+		ResidueRealPart:		-1981.17378001573
+		ResidueImaginaryPart:	 2672.79673635192
+	\Complex Pole
+	/Complex Pole
+		PoleRealPart:			-3449.516723926777
+		PoleImaginaryPart:		 1032.914743287804
+		ResidueRealPart:		 1981.17378001573
+		ResidueImaginaryPart:	-10000.37025226020
+	\Complex Pole
+\Filter

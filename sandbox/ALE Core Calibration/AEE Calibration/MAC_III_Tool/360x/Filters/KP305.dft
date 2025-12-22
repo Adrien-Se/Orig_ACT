@@ -1,0 +1,25 @@
+###########################################################
+# Configuration file for KP305 digital filter
+# PTC $Revision: 1.1 $
+###########################################################
+/DigitalFilter
+
+	Name:KP305
+	Description: KP305 digital filter. Sample Freq = 10000 Hz, -3dB Freq = 370.2 Hz, Group Delay = 0.55 ms.
+	Blocks Processing Mode: Sequential
+	Min Sampling Rate:	9000
+	Max Sampling Rate:	11000
+
+#	IIR 2nd Order
+	/Block
+		Filter Type:		IIR
+		Computation Method:	Single Remainder
+			B0	:    281
+			B1	:   1106
+			B2	:    183
+			A0	:  16384
+			A1	: -22517
+			A2	:   7703
+	\Block
+
+\DigitalFilter

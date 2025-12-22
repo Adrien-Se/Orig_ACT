@@ -1,0 +1,19 @@
+###############################################################
+# Configuration file for Infineon KP106/KP200 pressure sensor filter
+###############################################################
+/Filter
+
+	Name:					KP200 
+	Description:			Bessel 2 370Hz
+	Type:					Pole Filter
+	Direct Transfer:		0
+	Gain:					1.0
+
+
+	/Complex Pole
+		PoleRealPart:			-2560.93960
+		PoleImaginaryPart:		 1478.55917
+		ResidueRealPart:		 0.0
+		ResidueImaginaryPart:	-2957.11833
+	\Complex Pole
+\Filter

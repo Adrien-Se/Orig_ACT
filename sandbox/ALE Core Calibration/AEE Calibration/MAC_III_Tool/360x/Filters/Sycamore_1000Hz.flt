@@ -1,0 +1,25 @@
+####################################################################
+# Configuration file for Sycamore 4th Order Bessel 1000 Hz filter  #
+#    Fc(-3dB)=1000Hz;                                              #
+####################################################################
+/Filter
+
+	Name:					Sycamore_1000Hz
+	Description:			Bessel 4 Pole 1000 Hz
+	Type:					Pole Filter
+	Direct Transfer:		0
+	Gain:					1.0
+
+	/Complex Pole
+		PoleRealPart:			-6264.268819163180
+		PoleImaginaryPart:		 7912.760184741783
+		ResidueRealPart:		-4952.934450039275
+		ResidueImaginaryPart:	 6681.991840879903
+	\Complex Pole
+	/Complex Pole
+		PoleRealPart:			-8623.791809816908
+		PoleImaginaryPart:		 2582.286858219541
+		ResidueRealPart:		 4952.934450039278
+		ResidueImaginaryPart:	-25000.92563065037
+	\Complex Pole
+\Filter

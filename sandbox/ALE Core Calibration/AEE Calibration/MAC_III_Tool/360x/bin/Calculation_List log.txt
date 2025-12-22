@@ -1,0 +1,12 @@
+Start time : Tue 16 Dec 2025 09:38:37 
+Host ID performing the calculation : DESKTOP-MNG6GS3
+Command line : "..\bin\Mac.exe" "D:\Root1\Documents\Github\AssitingCalibration\Test_ACT_First_File_List.bch"
+Status : Decoding error.
+
+Configuration file error. Batch Mode failed.
+
+Application exit code : -2
+End Time : Tue 16 Dec 2025 09:38:37 
+
+///////////////////////////////////////////////////////////
+

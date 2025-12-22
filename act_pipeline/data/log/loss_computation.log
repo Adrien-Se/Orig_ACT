@@ -1,0 +1,41 @@
+Starting loss computation.
+Processing protection Left-Row 1-Pretensioner [PRET AVG] with 14 tests. Current total loss: 18.0, total count: 42. Errors details: [[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 4.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1.]].
+Processing protection Right-Row 1-Pretensioner [PRET AVD] with 14 tests. Current total loss: 36.0, total count: 84. Errors details: [[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 4.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1.]].
+Processing protection Driver-Row 1-Lap Pretensioner [RET SANG C] with 14 tests. Current total loss: 54.0, total count: 126. Errors details: [[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 4.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1.]].
+Processing protection Passenger-Row 1-Lap Pretensioner [RET SANG P] with 14 tests. Current total loss: 72.0, total count: 168. Errors details: [[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 4.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1.]].
+Processing protection Driver-Row 1-Load Limiter [LIM AD C] with 14 tests. Current total loss: 90.0, total count: 210. Errors details: [[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 4.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1.]].
+Processing protection Left-Row 2-Pretensioner [PRET ARG] with 14 tests. Current total loss: 108.0, total count: 252. Errors details: [[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 4.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1.]].
+Processing protection Right-Row 2-Pretensioner [PRET ARD] with 14 tests. Current total loss: 126.0, total count: 294. Errors details: [[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 4.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1.]].
+Processing protection ENS RearRepair with 14 tests. Current total loss: 126.0, total count: 336. Errors details: [[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]].
+Processing protection ENS RearLowSpeed with 14 tests. Current total loss: 126.0, total count: 378. Errors details: [[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]].
+Processing protection ENS RearAvgSpeed with 14 tests. Current total loss: 126.0, total count: 420. Errors details: [[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]].
+Processing protection ENS RearHighSpeed with 14 tests. Current total loss: 126.0, total count: 462. Errors details: [[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]].
+Processing protection ENS Door Unlock with 14 tests. Current total loss: 126.0, total count: 504. Errors details: [[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]].
+Processing protection ECall Sent with 14 tests. Current total loss: 126.0, total count: 546. Errors details: [[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]].
+Final mean loss: 0.23076923076923078.

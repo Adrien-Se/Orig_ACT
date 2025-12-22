@@ -1,0 +1,31 @@
+
+converter_results:
+  input_xlsx_path: data/xlsx/results.xlsx
+  sheet_name: 'Rear Main'
+
+converter_params:
+  input_cal_path: data/cal/IPSP74______1FHHSHHB01RHHPHHEHM1.cal
+  rita_params_path: data/json/SC3_RITA_params.json
+  expected_group_of_params:
+    group1:
+      - 'State Manager'
+      - 'Severity'
+      - 'Mode'
+      - 'Cross Immunity'
+      - 'Confirmation'
+    group2:
+      - 'Slow Task'
+      - 'Sensor Selection'
+      - 'Signal Conditioning'
+      - 'State Manager'
+      - 'Severity'
+      - 'Mode'
+      - 'Cross Immunity'
+      - 'Confirmation'
+
+converter_cal:
+  output_path: data/cal/new_calibration.cal
+  input_cal_path: data/cal/IPSP74______1FHHSHHB01RHHPHHEHM1.cal
+
+loss_params:
+  log_path: data/log/loss_computation.log

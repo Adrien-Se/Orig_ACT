@@ -1,0 +1,4 @@
+CLOCKS_PER_SEC = 1000
+INFO [tId=23544 clock=18] cMacThread::setSimulationMode - processor(s) detected: 16
+INFO [tId=23544 clock=42] User Name: petar, Maximum User Rights: Customer
+INFO [tId=23544 clock=9926] User Name: petar, Maximum User Rights: Customer

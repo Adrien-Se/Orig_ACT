@@ -1,0 +1,29 @@
+#################################################################
+# Configuration file for Panasonic 6in1E 60Hz Rate digital filter
+# PTC $Revision: 1.1 $
+#################################################################
+/DigitalFilter
+
+	Name:6in1E_60Hz_Rate
+	Description: Panasonic 6in1E 60Hz Rate digital filter. Sample Freq = 10000 Hz, -3dB Freq = 59 Hz, Group Delay = 6.8 ms.
+	Blocks Processing Mode: Sequential
+	Min Sampling Rate:	9000
+	Max Sampling Rate:	11000
+
+#	IIR 4th Order
+	/Block
+		Filter Type:		IIR
+		Computation Method:	Floating Point
+			B0	:      392948
+			B1	:    -1687718
+			B2	:     2742231
+			B3	:    -1998923
+			B4	:      552599
+			A0	:   268435456
+			A1	: -1040181428
+			A2	:  1512128657
+			A3	:  -977384078
+			A4	:   237002530
+	\Block
+
+\DigitalFilter

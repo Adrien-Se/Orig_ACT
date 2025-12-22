@@ -1,0 +1,24 @@
+###################################################################
+# Configuration file for Laurel 400 Hz 3 Pole Bessel filter       #
+#    Fc(-3dB)=400Hz;                                              #
+# PTC $Revision: 1.1 $                                            #
+###################################################################
+/Filter
+
+	Name:					Laurel_400Hz_3Pole
+	Description:			Bessel 3 Pole 400 Hz
+	Type:					Pole Filter
+	Direct Transfer:		0
+	Gain:					1.0
+
+	/Real Pole
+		Pole: 					-3324.221118303548
+		Residue:				 6484.422412760159
+	\Real Pole
+	/Complex Pole
+		PoleRealPart:			-2632.405955235781
+		PoleImaginaryPart:		 2511.406001439433
+		ResidueRealPart:		-3242.211206380080
+		ResidueImaginaryPart:	 -893.129535071738
+	\Complex Pole
+\Filter

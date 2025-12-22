@@ -1,0 +1,68 @@
+
+
+
+*********************************************
+Fri Dec 19 11:01:56 2025
+Mac III just started
+*********************************************
+Microsoft Windows 11 
+
+55 percent of memory is in use.
+Physical memory (Free/Total): 7527378944/16794279936 bytes. (44.8211 % of 16016.3 Mbytes.)
+Paging   memory (Free/Total): 27285864448/37195374592 bytes. (73.3582 % of 35472.3 Mbytes.)
+Virtual  memory (Free/Total): 140733009297408/140737488224256 bytes. (99.9968 % of 1.34218e+08 Mbytes.)
+
+Number of processors: 12
+ ( level = 6, revision = 47619 )
+
+User Name : adrien.servois
+WorkStation Name : FR01-OF-WL0049
+
+
+
+**********************
+Starting in batch mode
+**********************
+
+
+
+*********************************************
+Fri Dec 19 11:02:40 2025
+Computations started
+*********************************************
+Number of file iterations         : 7
+Number of mechanical iterations   : 7
+Number of electronic iterations	  : 266
+Number of acquisition iterations  : 7
+Number of algorithm iterations    : 7
+
+MultiPreprocessing item: Default
+File selected: V:\FR01\Common\Engineering & Development\RCS_Algorithm\DonneesS\Calibration\Projects\00_Training\RITA\P74\01_Data\03 Rear\03 CSH\IPS5&6\P64_BEV_BLC_16K_RTHM_23R0024_LSB_2K_IPS6.csh
+File selected: V:\FR01\Common\Engineering & Development\RCS_Algorithm\DonneesS\Calibration\Projects\00_Training\RITA\P74\01_Data\03 Rear\03 CSH\IPS5&6\P74_BEV_BCC_50K_MSB_23R0110_LSB_2K_IPS5.csh
+File selected: V:\FR01\Common\Engineering & Development\RCS_Algorithm\DonneesS\Calibration\Projects\00_Training\RITA\P74\01_Data\03 Rear\03 CSH\IPS5&6\P74_BEV_BCP_10K_RBMP_P74BAUI10BT01_LSB_2K_IPS6.csh
+File selected: V:\FR01\Common\Engineering & Development\RCS_Algorithm\DonneesS\Calibration\Projects\00_Training\RITA\P74\01_Data\03 Rear\03 CSH\IPS5&6\P74_BEV_BCP_38K_MSB_P74BABI38BT01_LSB_2K_IPS6.csh
+File selected: V:\FR01\Common\Engineering & Development\RCS_Algorithm\DonneesS\Calibration\Projects\00_Training\RITA\P74\01_Data\03 Rear\03 CSH\IPS5&6\P74_BEV_BCP_50K_MSB_P74BABI50BT01_LSB_2K_IPS6.csh
+File selected: V:\FR01\Common\Engineering & Development\RCS_Algorithm\DonneesS\Calibration\Projects\00_Training\RITA\P74\01_Data\03 Rear\03 CSH\IPS5&6\P74_BEV_BLC_15K_RTHM_23R0105_LSB_2K_IPS6.csh
+File selected: V:\FR01\Common\Engineering & Development\RCS_Algorithm\DonneesS\Calibration\Projects\00_Training\RITA\P74\01_Data\03 Rear\03 CSH\IPS5&6\P74_BEV_BLP_16K_RTHM_P74BARR16BT01_LSB_2K_IPS6.csh
+
+Number of opened margin tests : 1
+
+57 percent of memory is in use.
+Physical memory (Free/Total): 7183400960/16794279936 bytes. (42.7729 % of 16016.3 Mbytes.)
+Paging   memory (Free/Total): 26943954944/37195374592 bytes. (72.439 % of 35472.3 Mbytes.)
+Virtual  memory (Free/Total): 140732814614528/140737488224256 bytes. (99.9967 % of 1.34218e+08 Mbytes.)
+
+
+
+
+********************************************
+Fri Dec 19 11:02:40 2025
+End of computations
+********************************************
+57 percent of memory is in use.
+Physical memory (Free/Total): 7159386112/16794279936 bytes. (42.6299 % of 16016.3 Mbytes.)
+Paging   memory (Free/Total): 26913394688/37195374592 bytes. (72.3568 % of 35472.3 Mbytes.)
+Virtual  memory (Free/Total): 140732781453312/140737488224256 bytes. (99.9967 % of 1.34218e+08 Mbytes.)
+
+Batch mode computations successful.
+Report successfully generated.

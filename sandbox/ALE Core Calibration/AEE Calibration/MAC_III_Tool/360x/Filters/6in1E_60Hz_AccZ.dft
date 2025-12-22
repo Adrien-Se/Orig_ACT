@@ -1,0 +1,29 @@
+#################################################################
+# Configuration file for Panasonic 6in1E 60Hz AccZ digital filter
+# PTC $Revision: 1.1 $
+#################################################################
+/DigitalFilter
+
+	Name:6in1E_60Hz_AccZ
+	Description: Panasonic 6in1E 60Hz AccZ digital filter. Sample Freq = 10000 Hz, -3dB Freq = 61.5 Hz, Group Delay = 6.15 ms.
+	Blocks Processing Mode: Sequential
+	Min Sampling Rate:	9000
+	Max Sampling Rate:	11000
+
+#	IIR 4th Order
+	/Block
+		Filter Type:		IIR
+		Computation Method:	Floating Point
+			B0	:      174336
+			B1	:     -765176
+			B2	:     1279570
+			B3	:     -964328
+			B4	:      277085
+			A0	:   268435456
+			A1	: -1037357512
+			A2	:  1504014219
+			A3	:  -969610003
+			A4	:   234519327
+	\Block
+
+\DigitalFilter

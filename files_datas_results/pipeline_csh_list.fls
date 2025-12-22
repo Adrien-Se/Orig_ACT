@@ -1,0 +1,4091 @@
+##############################################################################
+# Path         : C:\Data\sandbox\ALE Core Calibration\AEE Calibration\MAC_III_Tool\360x\
+# Mac Version  : MAC III 3.6.0.13
+# Project Name : P74_2024_SC3_PSA_61_04
+# User Name    : adrien.servois
+# Date         : Fri Dec 19 10:52:15 2025
+##############################################################################
+/File List
+	Writable:0
+	/File
+		Color:4602367
+		Name:V:\FR01\Common\Engineering & Development\RCS_Algorithm\DonneesS\Calibration\Projects\00_Training\RITA\P74\01_Data\03 Rear\03 CSH\IPS5&6\P64_BEV_BLC_16K_RTHM_23R0024_LSB_2K_IPS6.csh
+		Used:0
+		/Time Event Settings List
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:TE_Deployment_Order_1st_Ped
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 0
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 4
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 10
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 5
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 1
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 2
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 3
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 6
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 7
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 8
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 9
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 11
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 28
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 30
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS FrontLowSpeed
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 13
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 21
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 25
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 23
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 26
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 14
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS FrontRepair
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 16
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 18
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 31
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 15
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 19
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 17
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 22
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 20
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 24
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 12
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 27
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 29
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS Crash Detected
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS FrontAvg1Speed
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS FrontAvg2Speed
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS LatRepair
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS LatHighSpeed
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS RearRepair
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS RearLowSpeed
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS FrontHighSpeed
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS LatAvgSpeed
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS RearAvgSpeed
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS RearHighSpeed
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS Rollover
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS Pedestrian
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS LatLowSpeed
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS Door Unlock
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:DR2
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:DR LAP PT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:DR1
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:LT PT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:RT PT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:PA LAP PT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:CT ROW1 BELT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:DR MLL
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:CT PT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:PA MLL
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:PED AB
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:LT HOOD LIFT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:RT HOOD LIFT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:DR VENT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:PA1
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:LT ROW2 SAB
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:LT CURTAIN
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:PA2
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:LT ROW2 PT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:RT ROW2 PT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:DR KNEE
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:PA VENT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:PA KNEE
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:RT ROW2 SAB
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:RT CURTAIN
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:RT SAB
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:CT FAR SAB
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:LT ROW2 CURTAIN
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:LT SAB
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:LT HEAD SAB
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:RT HEAD SAB
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:RT ROW2 CURTAIN
+				Weight:1
+			\Time Event Settings
+		\Time Event Settings List
+		/Channel Defects List
+		\Channel Defects List
+	\File
+	/File
+		Color:4602367
+		Name:V:\FR01\Common\Engineering & Development\RCS_Algorithm\DonneesS\Calibration\Projects\00_Training\RITA\P74\01_Data\03 Rear\03 CSH\IPS5&6\P74_BEV_BCC_50K_MSB_23R0110_LSB_2K_IPS5.csh
+		Used:0
+		/Time Event Settings List
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:TE_Deployment_Order_1st_Ped
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 0
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 4
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 10
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 5
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 1
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 2
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 3
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 6
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 7
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 8
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 9
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 11
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 28
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 30
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS FrontLowSpeed
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 13
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 21
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 25
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 23
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 26
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 14
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS FrontRepair
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 16
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 18
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 31
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 15
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 19
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 17
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 22
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 20
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 24
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 12
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 27
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 29
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS Crash Detected
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS FrontAvg1Speed
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS FrontAvg2Speed
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS LatRepair
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS LatHighSpeed
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS RearRepair
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS RearLowSpeed
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS FrontHighSpeed
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS LatAvgSpeed
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS RearAvgSpeed
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS RearHighSpeed
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS Rollover
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS Pedestrian
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS LatLowSpeed
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS Door Unlock
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:DR2
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:DR LAP PT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:DR1
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:LT PT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:RT PT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:PA LAP PT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:CT ROW1 BELT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:DR MLL
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:CT PT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:PA MLL
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:PED AB
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:LT HOOD LIFT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:RT HOOD LIFT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:DR VENT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:PA1
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:LT ROW2 SAB
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:LT CURTAIN
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:PA2
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:LT ROW2 PT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:RT ROW2 PT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:DR KNEE
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:PA VENT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:PA KNEE
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:RT ROW2 SAB
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:RT CURTAIN
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:RT SAB
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:CT FAR SAB
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:LT ROW2 CURTAIN
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:LT SAB
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:LT HEAD SAB
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:RT HEAD SAB
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:RT ROW2 CURTAIN
+				Weight:1
+			\Time Event Settings
+		\Time Event Settings List
+		/Channel Defects List
+		\Channel Defects List
+	\File
+	/File
+		Color:4602367
+		Name:V:\FR01\Common\Engineering & Development\RCS_Algorithm\DonneesS\Calibration\Projects\00_Training\RITA\P74\01_Data\03 Rear\03 CSH\IPS5&6\P74_BEV_BCP_10K_RBMP_P74BAUI10BT01_LSB_2K_IPS6.csh
+		Used:0
+		/Time Event Settings List
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:TE_Deployment_Order_1st_Ped
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 0
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 4
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 10
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 5
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 1
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 2
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 3
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 6
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 7
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 8
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 9
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 11
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 28
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 30
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS FrontLowSpeed
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 13
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 21
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 25
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 23
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 26
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 14
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS FrontRepair
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 16
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 18
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 31
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 15
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 19
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 17
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 22
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 20
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 24
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 12
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 27
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 29
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS Crash Detected
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS FrontAvg1Speed
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS FrontAvg2Speed
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS LatRepair
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS LatHighSpeed
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS RearRepair
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS RearLowSpeed
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS FrontHighSpeed
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS LatAvgSpeed
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS RearAvgSpeed
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS RearHighSpeed
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS Rollover
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS Pedestrian
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS LatLowSpeed
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS Door Unlock
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:DR2
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:DR LAP PT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:DR1
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:LT PT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:RT PT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:PA LAP PT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:CT ROW1 BELT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:DR MLL
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:CT PT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:PA MLL
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:PED AB
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:LT HOOD LIFT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:RT HOOD LIFT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:DR VENT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:PA1
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:LT ROW2 SAB
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:LT CURTAIN
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:PA2
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:LT ROW2 PT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:RT ROW2 PT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:DR KNEE
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:PA VENT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:PA KNEE
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:RT ROW2 SAB
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:RT CURTAIN
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:RT SAB
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:CT FAR SAB
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:LT ROW2 CURTAIN
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:LT SAB
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:LT HEAD SAB
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:RT HEAD SAB
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:RT ROW2 CURTAIN
+				Weight:1
+			\Time Event Settings
+		\Time Event Settings List
+		/Channel Defects List
+		\Channel Defects List
+	\File
+	/File
+		Color:4602367
+		Name:V:\FR01\Common\Engineering & Development\RCS_Algorithm\DonneesS\Calibration\Projects\00_Training\RITA\P74\01_Data\03 Rear\03 CSH\IPS5&6\P74_BEV_BCP_38K_MSB_P74BABI38BT01_LSB_2K_IPS6.csh
+		Used:0
+		/Time Event Settings List
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:TE_Deployment_Order_1st_Ped
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 0
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 4
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 10
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 5
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 1
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 2
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 3
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 6
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 7
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 8
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 9
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 11
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 28
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 30
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS FrontLowSpeed
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 13
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 21
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 25
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 23
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 26
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 14
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS FrontRepair
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 16
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 18
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 31
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 15
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 19
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 17
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 22
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 20
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 24
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 12
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 27
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 29
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS Crash Detected
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS FrontAvg1Speed
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS FrontAvg2Speed
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS LatRepair
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS LatHighSpeed
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS RearRepair
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS RearLowSpeed
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS FrontHighSpeed
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS LatAvgSpeed
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS RearAvgSpeed
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS RearHighSpeed
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS Rollover
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS Pedestrian
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS LatLowSpeed
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS Door Unlock
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:DR2
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:DR LAP PT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:DR1
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:LT PT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:RT PT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:PA LAP PT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:CT ROW1 BELT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:DR MLL
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:CT PT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:PA MLL
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:PED AB
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:LT HOOD LIFT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:RT HOOD LIFT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:DR VENT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:PA1
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:LT ROW2 SAB
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:LT CURTAIN
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:PA2
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:LT ROW2 PT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:RT ROW2 PT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:DR KNEE
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:PA VENT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:PA KNEE
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:RT ROW2 SAB
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:RT CURTAIN
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:RT SAB
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:CT FAR SAB
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:LT ROW2 CURTAIN
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:LT SAB
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:LT HEAD SAB
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:RT HEAD SAB
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:RT ROW2 CURTAIN
+				Weight:1
+			\Time Event Settings
+		\Time Event Settings List
+		/Channel Defects List
+		\Channel Defects List
+	\File
+	/File
+		Color:4602367
+		Name:V:\FR01\Common\Engineering & Development\RCS_Algorithm\DonneesS\Calibration\Projects\00_Training\RITA\P74\01_Data\03 Rear\03 CSH\IPS5&6\P74_BEV_BCP_50K_MSB_P74BABI50BT01_LSB_2K_IPS6.csh
+		Used:0
+		/Time Event Settings List
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:TE_Deployment_Order_1st_Ped
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 0
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 4
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 10
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 5
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 1
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 2
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 3
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 6
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 7
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 8
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 9
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 11
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 28
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 30
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS FrontLowSpeed
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 13
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 21
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 25
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 23
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 26
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 14
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS FrontRepair
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 16
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 18
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 31
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 15
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 19
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 17
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 22
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 20
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 24
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 12
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 27
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 29
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS Crash Detected
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS FrontAvg1Speed
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS FrontAvg2Speed
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS LatRepair
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS LatHighSpeed
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS RearRepair
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS RearLowSpeed
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS FrontHighSpeed
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS LatAvgSpeed
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS RearAvgSpeed
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS RearHighSpeed
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS Rollover
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS Pedestrian
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS LatLowSpeed
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS Door Unlock
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:DR2
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:DR LAP PT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:DR1
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:LT PT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:RT PT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:PA LAP PT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:CT ROW1 BELT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:DR MLL
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:CT PT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:PA MLL
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:PED AB
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:LT HOOD LIFT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:RT HOOD LIFT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:DR VENT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:PA1
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:LT ROW2 SAB
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:LT CURTAIN
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:PA2
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:LT ROW2 PT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:RT ROW2 PT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:DR KNEE
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:PA VENT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:PA KNEE
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:RT ROW2 SAB
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:RT CURTAIN
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:RT SAB
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:CT FAR SAB
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:LT ROW2 CURTAIN
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:LT SAB
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:LT HEAD SAB
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:RT HEAD SAB
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:RT ROW2 CURTAIN
+				Weight:1
+			\Time Event Settings
+		\Time Event Settings List
+		/Channel Defects List
+		\Channel Defects List
+	\File
+	/File
+		Color:4602367
+		Name:V:\FR01\Common\Engineering & Development\RCS_Algorithm\DonneesS\Calibration\Projects\00_Training\RITA\P74\01_Data\03 Rear\03 CSH\IPS5&6\P74_BEV_BLC_15K_RTHM_23R0105_LSB_2K_IPS6.csh
+		Used:0
+		/Time Event Settings List
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:TE_Deployment_Order_1st_Ped
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 0
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 4
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 10
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 5
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 1
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 2
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 3
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 6
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 7
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 8
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 9
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 11
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 28
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 30
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS FrontLowSpeed
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 13
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 21
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 25
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 23
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 26
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 14
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS FrontRepair
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 16
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 18
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 31
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 15
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 19
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 17
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 22
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 20
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 24
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 12
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 27
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 29
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS Crash Detected
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS FrontAvg1Speed
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS FrontAvg2Speed
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS LatRepair
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS LatHighSpeed
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS RearRepair
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS RearLowSpeed
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS FrontHighSpeed
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS LatAvgSpeed
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS RearAvgSpeed
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS RearHighSpeed
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS Rollover
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS Pedestrian
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS LatLowSpeed
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS Door Unlock
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:DR2
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:DR LAP PT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:DR1
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:LT PT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:RT PT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:PA LAP PT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:CT ROW1 BELT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:DR MLL
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:CT PT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:PA MLL
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:PED AB
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:LT HOOD LIFT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:RT HOOD LIFT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:DR VENT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:PA1
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:LT ROW2 SAB
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:LT CURTAIN
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:PA2
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:LT ROW2 PT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:RT ROW2 PT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:DR KNEE
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:PA VENT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:PA KNEE
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:RT ROW2 SAB
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:RT CURTAIN
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:RT SAB
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:CT FAR SAB
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:LT ROW2 CURTAIN
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:LT SAB
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:LT HEAD SAB
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:RT HEAD SAB
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:RT ROW2 CURTAIN
+				Weight:1
+			\Time Event Settings
+		\Time Event Settings List
+		/Channel Defects List
+		\Channel Defects List
+	\File
+	/File
+		Color:4602367
+		Name:V:\FR01\Common\Engineering & Development\RCS_Algorithm\DonneesS\Calibration\Projects\00_Training\RITA\P74\01_Data\03 Rear\03 CSH\IPS5&6\P74_BEV_BLP_16K_RTHM_P74BARR16BT01_LSB_2K_IPS6.csh
+		Used:0
+		/Time Event Settings List
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:TE_Deployment_Order_1st_Ped
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 0
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 4
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 10
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 5
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 1
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 2
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 3
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 6
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 7
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 8
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 9
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 11
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 28
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 30
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS FrontLowSpeed
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 13
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 21
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 25
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 23
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 26
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 14
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS FrontRepair
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 16
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 18
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 31
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 15
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 19
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 17
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 22
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 20
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 24
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 12
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 27
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:Configured Actuator 29
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS Crash Detected
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS FrontAvg1Speed
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS FrontAvg2Speed
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS LatRepair
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS LatHighSpeed
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS RearRepair
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS RearLowSpeed
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS FrontHighSpeed
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS LatAvgSpeed
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS RearAvgSpeed
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS RearHighSpeed
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS Rollover
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS Pedestrian
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS LatLowSpeed
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:ENS Door Unlock
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:DR2
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:DR LAP PT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:DR1
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:LT PT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:RT PT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:PA LAP PT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:CT ROW1 BELT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:DR MLL
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:CT PT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:PA MLL
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:PED AB
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:LT HOOD LIFT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:RT HOOD LIFT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:DR VENT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:PA1
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:LT ROW2 SAB
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:LT CURTAIN
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:PA2
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:LT ROW2 PT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:RT ROW2 PT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:DR KNEE
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:PA VENT
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:PA KNEE
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:RT ROW2 SAB
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:RT CURTAIN
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:RT SAB
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:CT FAR SAB
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:LT ROW2 CURTAIN
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:LT SAB
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:LT HEAD SAB
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:RT HEAD SAB
+				Weight:1
+			\Time Event Settings
+			/Time Event Settings
+				Maximum Value:NF
+				Minimum Value:NF
+				Optimum:NF
+				Time Event:RT ROW2 CURTAIN
+				Weight:1
+			\Time Event Settings
+		\Time Event Settings List
+		/Channel Defects List
+		\Channel Defects List
+	\File
+\File List

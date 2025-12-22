@@ -1,0 +1,29 @@
+#                      NAME: SC3_PSA
+#                    FAMILY: SC3
+#                 DIRECTORY: SC3_PSA_Calibration_Tool/SC3_PSA_61_04
+#                  CUSTOMER: PSA
+#                 UNIT TYPE: CDPO
+#         ALGORITHM VERSION: SC3_PSA_61_04
+#               ECU VERSION: 61_04
+#                     NOTES: LISA_2.6.0.1   ALIS_2.0.0.1   AROSA_3.3.2.0   RITA_2.2.0.0   PETRA_6.0.1.0   EPD_2.0   DM_2.0
+#                      PLAN: 
+#              HISTORY FILE: History.rtf
+#       PRECISION FREQUENCY: 10000
+#   Simulink Workspace Load: 
+#            Simulink Model: 
+	/Project
+		Name:                      OV52_2023_SC3_PSA_61_04
+		Customer:                  PSA
+		Unit Type:                 CDPO
+		Writable:                  0
+		Symbols:                   Projects/Units/SC3/SC3_PSA_Calibration_Tool/SC3_PSA_61_04/SC3_PSA Symbols.cfg
+		Unit:                      Projects/Units/SC3/SC3_PSA_Calibration_Tool/SC3_PSA_61_04/SC3_PSA Digital Unit.cfg
+		Vehicle:                   Projects/Units/SC3/SC3_PSA_Calibration_Tool/SC3_PSA_61_04/SC3_PSA Digital Vehicle.vcl
+		Algorithm:                 Projects/Units/SC3/SC3_PSA_Calibration_Tool/SC3_PSA_61_04/SC3_PSA Algorithm.cfg
+		Calibration:               Projects/Units/SC3/SC3_PSA_Calibration_Tool/SC3_PSA_61_04/SC3_PSA Calibration.cfg
+		Preprocessing:             Projects/Units/SC3/SC3_PSA_Calibration_Tool/SC3_PSA_61_04/SC3_PSA Digital Preprocessing.prp
+		Drift Studies:             Projects/Units/SC3/SC3_PSA_Calibration_Tool/SC3_PSA_61_04/SC3_PSA Drifts Studies.cfg
+		Channel Mapping:           Projects/Units/SC3/SC3_PSA_Calibration_Tool/SC3_PSA_61_04/SC3_PSA Digital Channel Mapping.cfg
+		Executable File:           Projects/Units/SC3/SC3_PSA_Calibration_Tool/SC3_PSA_61_04/SC3_PSA.ecu
+	\Project
+

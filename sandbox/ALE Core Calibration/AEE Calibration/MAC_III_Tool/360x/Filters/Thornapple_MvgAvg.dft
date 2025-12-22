@@ -1,0 +1,27 @@
+#########################################################
+# Configuration file for Thornapple Moving Average filter
+#########################################################
+/DigitalFilter
+
+	Name:Thornapple_MvgAvg
+	Description: Thornapple Moving Average FIR filter. Sample Freq = 15625 Hz, -3dB Freq = 872 Hz, Group Delay = 0.224 ms.
+	Blocks Processing Mode: Sequential
+	Min Sampling Rate:	15000
+	Max Sampling Rate:	16250
+
+#	FIR Moving Average
+	/Block
+		Filter Type:		FIR
+		Computation Method:	No Remainder
+			B0	:   1
+			B1	:   1
+			B2	:   1
+			B3	:   1
+			B4	:   1
+			B5	:   1
+			B6	:   1
+			B7	:   1
+			A0	:   8
+	\Block
+
+\DigitalFilter

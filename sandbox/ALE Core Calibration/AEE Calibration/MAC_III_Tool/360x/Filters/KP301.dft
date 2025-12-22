@@ -1,0 +1,24 @@
+###########################################################
+# Configuration file for KP301 digital filter
+###########################################################
+/DigitalFilter
+
+	Name:KP301
+	Description: KP301 digital filter. Sample Freq = 10000 Hz, -3dB Freq = 376.9 Hz, Group Delay = 0.54 ms.
+	Blocks Processing Mode: Sequential
+	Min Sampling Rate:	9000
+	Max Sampling Rate:	11000
+
+#	IIR 2nd Order
+	/Block
+		Filter Type:		IIR
+		Computation Method:	Single Remainder
+			B0	:    281
+			B1	:   1119
+			B2	:    183
+			A0	:  16384
+			A1	: -22549
+			A2	:   7748
+	\Block
+
+\DigitalFilter

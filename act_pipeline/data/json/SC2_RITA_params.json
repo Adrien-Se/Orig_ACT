@@ -1,0 +1,797 @@
+{
+    "Sensor Selection": {
+        "R_CONFIG_LGT_CENTRAL_SENSOR_INDEX": {
+            "min": 0,
+            "max": 59
+        },
+        "R_CONFIG_LAT_CENTRAL_SENSOR_INDEX": {
+            "min": 0,
+            "max": 59
+        },
+        "R_CONFIG_LGT_RSU1_SENSOR_INDEX": {
+            "min": 0,
+            "max": 59
+        },
+        "R_CONFIG_LGT_RSU2_SENSOR_INDEX": {
+            "min": 0,
+            "max": 59
+        },
+        "R_CONFIG_LGT_RSU3_SENSOR_INDEX": {
+            "min": 0,
+            "max": 59
+        },
+        "R_CONFIG_CONF_RSU1_SENSOR_INDEX": {
+            "min": 0,
+            "max": 59
+        },
+        "R_CONFIG_CONF_RSU2_SENSOR_INDEX": {
+            "min": 0,
+            "max": 59
+        },
+        "R_CONFIG_LGT_SECONDARY_SENSOR_INDEX": {
+            "min": 0,
+            "max": 59
+        }
+    },
+    "Signal Conditioning": {
+        "R_SIC_FLT_CENTRAL_X_DV_B0": {
+            "min": -32768,
+            "max": 32767
+        },
+        "R_SIC_FLT_CENTRAL_X_DV_A1": {
+            "min": -32768,
+            "max": 32767
+        },
+        "R_SIC_FLT_CENTRAL_X_DV_N": {
+            "min": 0,
+            "max": 15
+        },
+        "R_SIC_FLT_CENTRAL_X_B0": {
+            "min": -32768,
+            "max": 32767
+        },
+        "R_SIC_FLT_CENTRAL_X_B1": {
+            "min": -32768,
+            "max": 32767
+        },
+        "R_SIC_FLT_CENTRAL_X_B2": {
+            "min": -32768,
+            "max": 32767
+        },
+        "R_SIC_FLT_CENTRAL_X_A1": {
+            "min": -32768,
+            "max": 32767
+        },
+        "R_SIC_FLT_CENTRAL_X_A2": {
+            "min": -32768,
+            "max": 32767
+        },
+        "R_SIC_FLT_CENTRAL_X_N": {
+            "min": 0,
+            "max": 15
+        },
+        "R_SIC_FLT_RSU1_X_B0": {
+            "min": -32768,
+            "max": 32767
+        },
+        "R_SIC_FLT_RSU1_X_B1": {
+            "min": -32768,
+            "max": 32767
+        },
+        "R_SIC_FLT_RSU1_X_B2": {
+            "min": -32768,
+            "max": 32767
+        },
+        "R_SIC_FLT_RSU1_X_A1": {
+            "min": -32768,
+            "max": 32767
+        },
+        "R_SIC_FLT_RSU1_X_A2": {
+            "min": -32768,
+            "max": 32767
+        },
+        "R_SIC_FLT_RSU1_X_N": {
+            "min": 0,
+            "max": 15
+        },
+        "R_SIC_FLT_RSU2_X_B0": {
+            "min": -32768,
+            "max": 32767
+        },
+        "R_SIC_FLT_RSU2_X_B1": {
+            "min": -32768,
+            "max": 32767
+        },
+        "R_SIC_FLT_RSU2_X_B2": {
+            "min": -32768,
+            "max": 32767
+        },
+        "R_SIC_FLT_RSU2_X_A1": {
+            "min": -32768,
+            "max": 32767
+        },
+        "R_SIC_FLT_RSU2_X_A2": {
+            "min": -32768,
+            "max": 32767
+        },
+        "R_SIC_FLT_RSU2_X_N": {
+            "min": 0,
+            "max": 15
+        },
+        "R_SIC_FLT_RSU3_X_B0": {
+            "min": -32768,
+            "max": 32767
+        },
+        "R_SIC_FLT_RSU3_X_B1": {
+            "min": -32768,
+            "max": 32767
+        },
+        "R_SIC_FLT_RSU3_X_B2": {
+            "min": -32768,
+            "max": 32767
+        },
+        "R_SIC_FLT_RSU3_X_A1": {
+            "min": -32768,
+            "max": 32767
+        },
+        "R_SIC_FLT_RSU3_X_A2": {
+            "min": -32768,
+            "max": 32767
+        },
+        "R_SIC_FLT_RSU3_X_N": {
+            "min": 0,
+            "max": 15
+        }
+    },
+    "State Manager": {
+        "R_SM_X_ACC_FILTER": {
+            "min": 0,
+            "max": 1
+        },
+        "R_SM_START_CENTRAL_X_ACC_THR": {
+            "min": 0,
+            "max": 32767
+        },
+        "R_SM_RESET_CENTRAL_X_ACC_THR": {
+            "min": 0,
+            "max": 32767
+        },
+        "R_SM_RESET_WEAK_TIME": {
+            "min": 0,
+            "max": 255
+        },
+        "R_SM_RESET_HARD_TIME": {
+            "min": 0,
+            "max": 1000
+        },
+        "R_SM_RESET_HARD_TIME_EXTENSION": {
+            "min": 0,
+            "max": 1000
+        },
+        "R_SM_RESET_VELOCITY_THR": {
+            "min": 0,
+            "max": 2147483647
+        },
+        "R_SM_RESET_VELOCITY_START": {
+            "min": 0,
+            "max": 1000
+        },
+        "R_SM_RESET_VELOCITY_BIAS": {
+            "min": 0,
+            "max": 7680
+        },
+        "R_SM_FAILED_RSU_X_ThrClass0": {
+            "min": 0,
+            "max": 2
+        },
+        "R_SM_FAILED_RSU_X_ThrClass1": {
+            "min": 0,
+            "max": 2
+        },
+        "R_SM_FAILED_RSU_X_ThrClass2": {
+            "min": 0,
+            "max": 2
+        }
+    },
+    "Severity": {
+        "R_CentX_Acc_PassThru_bitword": {
+            "min": 0,
+            "max": 255
+        },
+        "R_CENTRAL_X_DV_BIAS": {
+            "min": 0,
+            "max": 32767
+        },
+        "R_CentX_DV_PassThru_bitword": {
+            "min": 0,
+            "max": 255
+        },
+        "R_CentX_Acc_Window_Thr1": {
+            "min": 0,
+            "max": 4294967295
+        },
+        "R_CentX_Acc_Window_Thr2": {
+            "min": 0,
+            "max": 4294967295
+        },
+        "R_CentX_Acc_Window_Thr3": {
+            "min": 0,
+            "max": 4294967295
+        },
+        "R_CentX_Acc_Window_Thr4": {
+            "min": 0,
+            "max": 4294967295
+        },
+        "R_CentX_DV_Window_Thr1": {
+            "min": 0,
+            "max": 4294967295
+        },
+        "R_CentX_DV_Window_Thr2": {
+            "min": 0,
+            "max": 4294967295
+        },
+        "R_CentX_DV_Window_Thr3": {
+            "min": 0,
+            "max": 4294967295
+        },
+        "R_CentX_DV_Window_Thr4": {
+            "min": 0,
+            "max": 4294967295
+        },
+        "R_CentX_Acc_Latch_Time_Thr1": {
+            "min": 0,
+            "max": 255
+        },
+        "R_CentX_Acc_Latch_Time_Thr2": {
+            "min": 0,
+            "max": 255
+        },
+        "R_CentX_Acc_Latch_Time_Thr3": {
+            "min": 0,
+            "max": 255
+        },
+        "R_CentX_Acc_Latch_Time_Thr4": {
+            "min": 0,
+            "max": 255
+        },
+        "R_CentX_Acc_Thr1_ThrClass0": {
+            "min": 0,
+            "max": 32767
+        },
+        "R_CentX_Acc_Thr2_ThrClass0": {
+            "min": 0,
+            "max": 32767
+        },
+        "R_CentX_Acc_Thr3_ThrClass0": {
+            "min": 0,
+            "max": 32767
+        },
+        "R_CentX_Acc_Thr4_ThrClass0": {
+            "min": 0,
+            "max": 32767
+        },
+        "R_CentX_Acc_Thr1_ThrClass1": {
+            "min": 0,
+            "max": 32767
+        },
+        "R_CentX_Acc_Thr2_ThrClass1": {
+            "min": 0,
+            "max": 32767
+        },
+        "R_CentX_Acc_Thr3_ThrClass1": {
+            "min": 0,
+            "max": 32767
+        },
+        "R_CentX_Acc_Thr4_ThrClass1": {
+            "min": 0,
+            "max": 32767
+        },
+        "R_CentX_Acc_Thr1_ThrClass2": {
+            "min": 0,
+            "max": 32767
+        },
+        "R_CentX_Acc_Thr2_ThrClass2": {
+            "min": 0,
+            "max": 32767
+        },
+        "R_CentX_Acc_Thr3_ThrClass2": {
+            "min": 0,
+            "max": 32767
+        },
+        "R_CentX_Acc_Thr4_ThrClass2": {
+            "min": 0,
+            "max": 32767
+        },
+        "R_CentX_DV_Thr1_ThrClass0": {
+            "min": 0,
+            "max": 2147483647
+        },
+        "R_CentX_DV_Thr2_ThrClass0": {
+            "min": 0,
+            "max": 2147483647
+        },
+        "R_CentX_DV_Thr3_ThrClass0": {
+            "min": 0,
+            "max": 2147483647
+        },
+        "R_CentX_DV_Thr4_ThrClass0": {
+            "min": 0,
+            "max": 2147483647
+        },
+        "R_CentX_DV_Thr1_ThrClass1": {
+            "min": 0,
+            "max": 2147483647
+        },
+        "R_CentX_DV_Thr2_ThrClass1": {
+            "min": 0,
+            "max": 2147483647
+        },
+        "R_CentX_DV_Thr3_ThrClass1": {
+            "min": 0,
+            "max": 2147483647
+        },
+        "R_CentX_DV_Thr4_ThrClass1": {
+            "min": 0,
+            "max": 2147483647
+        },
+        "R_CentX_DV_Thr1_ThrClass2": {
+            "min": 0,
+            "max": 2147483647
+        },
+        "R_CentX_DV_Thr2_ThrClass2": {
+            "min": 0,
+            "max": 2147483647
+        },
+        "R_CentX_DV_Thr3_ThrClass2": {
+            "min": 0,
+            "max": 2147483647
+        },
+        "R_CentX_DV_Thr4_ThrClass2": {
+            "min": 0,
+            "max": 2147483647
+        },
+        "R_CentX_Acc_Thr1_bitword": {
+            "min": 0,
+            "max": 255
+        },
+        "R_CentX_Acc_Thr2_bitword": {
+            "min": 0,
+            "max": 255
+        },
+        "R_CentX_Acc_Thr3_bitword": {
+            "min": 0,
+            "max": 255
+        },
+        "R_CentX_Acc_Thr4_bitword": {
+            "min": 0,
+            "max": 255
+        },
+        "R_CentX_DV_Thr1_bitword": {
+            "min": 0,
+            "max": 255
+        },
+        "R_CentX_DV_Thr2_bitword": {
+            "min": 0,
+            "max": 255
+        },
+        "R_CentX_DV_Thr3_bitword": {
+            "min": 0,
+            "max": 255
+        },
+        "R_CentX_DV_Thr4_bitword": {
+            "min": 0,
+            "max": 255
+        },
+        "R_Select_MAX_RSU_X_or_RSU1_X_Acc_DV": {
+            "min": 0,
+            "max": 1
+        },
+        "R_RSU_X_Acc_PassThru_bitword": {
+            "min": 0,
+            "max": 255
+        },
+        "R_SIC_DV_BUFFER_LENGTH": {
+            "min": 1,
+            "max": 15
+        },
+        "R_RSU_X_DV_BIAS": {
+            "min": 0,
+            "max": 32767
+        },
+        "R_RSU_X_DV_PassThru_bitword": {
+            "min": 0,
+            "max": 255
+        },
+        "R_RSU_X_Acc_Window_Thr1": {
+            "min": 0,
+            "max": 4294967295
+        },
+        "R_RSU_X_Acc_Window_Thr2": {
+            "min": 0,
+            "max": 4294967295
+        },
+        "R_RSU_X_DV_Window_Thr1": {
+            "min": 0,
+            "max": 4294967295
+        },
+        "R_RSU_X_DV_Window_Thr2": {
+            "min": 0,
+            "max": 4294967295
+        },
+        "R_RSU_X_Acc_Latch_Time_Thr1": {
+            "min": 0,
+            "max": 255
+        },
+        "R_RSU_X_Acc_Latch_Time_Thr2": {
+            "min": 0,
+            "max": 255
+        },
+        "R_RSU_X_Acc_Thr1_ThrClass0": {
+            "min": 0,
+            "max": 32767
+        },
+        "R_RSU_X_Acc_Thr2_ThrClass0": {
+            "min": 0,
+            "max": 32767
+        },
+        "R_RSU_X_Acc_Thr1_ThrClass1": {
+            "min": 0,
+            "max": 32767
+        },
+        "R_RSU_X_Acc_Thr2_ThrClass1": {
+            "min": 0,
+            "max": 32767
+        },
+        "R_RSU_X_Acc_Thr1_ThrClass2": {
+            "min": 0,
+            "max": 32767
+        },
+        "R_RSU_X_Acc_Thr2_ThrClass2": {
+            "min": 0,
+            "max": 32767
+        },
+        "R_RSU_X_DV_Thr1_ThrClass0": {
+            "min": 0,
+            "max": 2147483647
+        },
+        "R_RSU_X_DV_Thr2_ThrClass0": {
+            "min": 0,
+            "max": 2147483647
+        },
+        "R_RSU_X_DV_Thr1_ThrClass1": {
+            "min": 0,
+            "max": 2147483647
+        },
+        "R_RSU_X_DV_Thr2_ThrClass1": {
+            "min": 0,
+            "max": 2147483647
+        },
+        "R_RSU_X_DV_Thr1_ThrClass2": {
+            "min": 0,
+            "max": 2147483647
+        },
+        "R_RSU_X_DV_Thr2_ThrClass2": {
+            "min": 0,
+            "max": 2147483647
+        },
+        "R_RSU_X_Acc_Thr1_bitword": {
+            "min": 0,
+            "max": 255
+        },
+        "R_RSU_X_Acc_Thr2_bitword": {
+            "min": 0,
+            "max": 255
+        },
+        "R_RSU_X_DV_Thr1_bitword": {
+            "min": 0,
+            "max": 255
+        },
+        "R_RSU_X_DV_Thr2_bitword": {
+            "min": 0,
+            "max": 255
+        },
+        "R_Allowed_path_in_backup_bitword": {
+            "min": 0,
+            "max": 255
+        },
+        "R_Backup_path_bitword": {
+            "min": 0,
+            "max": 255
+        }
+    },
+    "Mode": {
+        "R_IRC1_TYPE": {
+            "min": 0,
+            "max": 1
+        },
+        "R_IRC2_TYPE": {
+            "min": 0,
+            "max": 1
+        },
+        "R_IRC1_SENSOR1_CHOICE": {
+            "min": 0,
+            "max": 255
+        },
+        "R_IRC2_SENSOR1_CHOICE": {
+            "min": 0,
+            "max": 255
+        },
+        "R_IRC1_SENSOR2_CHOICE": {
+            "min": 0,
+            "max": 255
+        },
+        "R_IRC2_SENSOR2_CHOICE": {
+            "min": 0,
+            "max": 255
+        },
+        "R_IRC1_STOPSENSOR_CHOICE": {
+            "min": 0,
+            "max": 5
+        },
+        "R_IRC2_STOPSENSOR_CHOICE": {
+            "min": 0,
+            "max": 5
+        },
+        "R_IRC1_STOPSENSOR_THR": {
+            "min": 0,
+            "max": 2147483647
+        },
+        "R_IRC2_STOPSENSOR_THR": {
+            "min": 0,
+            "max": 2147483647
+        },
+        "R_IRC1_THR": {
+            "min": 0,
+            "max": 2147483647
+        },
+        "R_IRC2_THR": {
+            "min": 0,
+            "max": 2147483647
+        },
+        "R_IRC1_PassThru_bitword": {
+            "min": 0,
+            "max": 255
+        },
+        "R_IRC2_PassThru_bitword": {
+            "min": 0,
+            "max": 255
+        },
+        "R_IRC1_Severity_1_bitword": {
+            "min": 0,
+            "max": 255
+        },
+        "R_IRC2_Severity_1_bitword": {
+            "min": 0,
+            "max": 255
+        },
+        "R_IRC1_Severity_2_bitword": {
+            "min": 0,
+            "max": 255
+        },
+        "R_IRC2_Severity_2_bitword": {
+            "min": 0,
+            "max": 255
+        },
+        "R_CONFIG_ANGLE_VR": {
+            "min": 0,
+            "max": 1
+        },
+        "R_ANGLE_MIN_DENOMINATOR": {
+            "min": 1,
+            "max": 32767
+        },
+        "R_ANGLE_THR1": {
+            "min": 0,
+            "max": 65535
+        },
+        "R_ANGLE_THR2": {
+            "min": 0,
+            "max": 65535
+        },
+        "R_ANGLE_THR1_WINDOW": {
+            "min": 0,
+            "max": 4294967295
+        },
+        "R_ANGLE_THR2_WINDOW": {
+            "min": 0,
+            "max": 4294967295
+        },
+        "R_ANGLE_PassThru_bitword": {
+            "min": 0,
+            "max": 255
+        },
+        "R_ANGLE_Thr1_bitword": {
+            "min": 0,
+            "max": 255
+        },
+        "R_ANGLE_Thr2_bitword": {
+            "min": 0,
+            "max": 255
+        },
+        "R_ANGLE_2_For_Immunity": {
+            "min": 0,
+            "max": 1
+        }
+    },
+    "Cross Immunity": {
+        "R_SIDE_IMMUNITY_LEFT_ALGO_INDEX": {
+            "min": 0,
+            "max": 6
+        },
+        "R_SIDE_IMMUNITY_RIGHT_ALGO_INDEX": {
+            "min": 0,
+            "max": 6
+        },
+        "R_SIDE_IMMUNITY_SEV_MASK": {
+            "min": 0,
+            "max": 65535
+        },
+        "R_SIDE_IMMUNITY_bitword_0": {
+            "min": 255,
+            "max": 255
+        },
+        "R_SIDE_IMMUNITY_bitword_1": {
+            "min": 0,
+            "max": 255
+        }
+    },
+    "Confirmation": {
+        "R_CONFIRMATION_CENTRAL_X_ACC_THR": {
+            "min": 0,
+            "max": 32767
+        },
+        "R_CONFIRMATION_RSU_X_ACC_THR": {
+            "min": 0,
+            "max": 32767
+        },
+        "R_CONFIRMATION_CENTRAL_Y_ACC_THR": {
+            "min": 0,
+            "max": 32767
+        },
+        "R_CONFIRMATION_RSU_ACC_THR": {
+            "min": 0,
+            "max": 32767
+        },
+        "R_CONFIRMATION_SECONDARY_X_ACC_THR": {
+            "min": 0,
+            "max": 32767
+        },
+        "R_CONFIRMATION_MASK1": {
+            "min": 0,
+            "max": 255
+        },
+        "R_CONFIRMATION_MASK2": {
+            "min": 0,
+            "max": 255
+        },
+        "R_CONFIRMATION_MASK3": {
+            "min": 0,
+            "max": 255
+        }
+    },
+    "Deployment Decision": {
+        "R_AH_SEV_OUTPUT_0": {
+            "min": 0,
+            "max": 65535
+        },
+        "R_AH_SEV_OUTPUT_1": {
+            "min": 0,
+            "max": 65535
+        },
+        "R_AH_SEV_OUTPUT_2": {
+            "min": 0,
+            "max": 65535
+        },
+        "R_AH_SEV_OUTPUT_3": {
+            "min": 0,
+            "max": 65535
+        },
+        "R_AH_SEV_OUTPUT_4": {
+            "min": 0,
+            "max": 65535
+        },
+        "R_AH_SEV_OUTPUT_5": {
+            "min": 0,
+            "max": 65535
+        },
+        "R_AH_SEV_OUTPUT_6": {
+            "min": 0,
+            "max": 65535
+        },
+        "R_AH_SEV_OUTPUT_7": {
+            "min": 0,
+            "max": 65535
+        },
+        "R_AH_SEV_OUTPUT_WO_CONFIRMATION": {
+            "min": 0,
+            "max": 65535
+        },
+        "R_AH_PROT_REQUEST_0": {
+            "min": 0,
+            "max": 18446744073709551615
+        },
+        "R_AH_PROT_REQUEST_1": {
+            "min": 0,
+            "max": 18446744073709551615
+        },
+        "R_AH_PROT_REQUEST_2": {
+            "min": 0,
+            "max": 18446744073709551615
+        },
+        "R_AH_PROT_REQUEST_3": {
+            "min": 0,
+            "max": 18446744073709551615
+        },
+        "R_AH_PROT_REQUEST_4": {
+            "min": 0,
+            "max": 18446744073709551615
+        },
+        "R_AH_PROT_REQUEST_5": {
+            "min": 0,
+            "max": 18446744073709551615
+        },
+        "R_AH_PROT_REQUEST_6": {
+            "min": 0,
+            "max": 18446744073709551615
+        },
+        "R_AH_PROT_REQUEST_7": {
+            "min": 0,
+            "max": 18446744073709551615
+        },
+        "R_VR_USED_bitword": {
+            "min": 0,
+            "max": 255
+        },
+        "R_VR_LEFT_PROT_REQUEST": {
+            "min": 0,
+            "max": 18446744073709551615
+        },
+        "R_VR_RIGHT_PROT_REQUEST": {
+            "min": 0,
+            "max": 18446744073709551615
+        }
+    },
+    "Interface Parameters": {},
+    "Slow Task": {
+        "R_ST_CONFIG_VEHICLE_SPEED_INDEX": {
+            "min": 0,
+            "max": 12
+        },
+        "R_ST_CONFIG_VEHICLE_BACKWARD_INDEX": {
+            "min": 0,
+            "max": 12
+        },
+        "R_ST_SIC_VEHICLE_SPEED_DEFAULT": {
+            "min": -32767,
+            "max": 32767
+        },
+        "R_ST_SIC_VEHICLE_SPEED_RATE_LIMIT_POS": {
+            "min": 0,
+            "max": 8192
+        },
+        "R_ST_SIC_VEHICLE_SPEED_RATE_LIMIT_NEG": {
+            "min": 0,
+            "max": 8192
+        },
+        "R_ST_VEHICLE_SPEED_THR1": {
+            "min": -32767,
+            "max": 32767
+        },
+        "R_ST_VEHICLE_SPEED_THR2": {
+            "min": -32767,
+            "max": 32767
+        },
+        "R_ST_VEHICLE_SPEED_MAPPING_0": {
+            "min": 0,
+            "max": 2
+        },
+        "R_ST_VEHICLE_SPEED_MAPPING_1": {
+            "min": 0,
+            "max": 2
+        },
+        "R_ST_VEHICLE_SPEED_MAPPING_2": {
+            "min": 0,
+            "max": 2
+        }
+    }
+}

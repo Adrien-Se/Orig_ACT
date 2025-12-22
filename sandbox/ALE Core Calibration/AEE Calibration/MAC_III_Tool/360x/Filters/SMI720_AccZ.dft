@@ -1,0 +1,238 @@
+###########################################################
+# Configuration file for SMI720 AccZ digital filter
+###########################################################
+/DigitalFilter
+
+	Name:SMI720_AccZ
+	Description: SMI720 AccZ filter. Sample Freq = 8333.3 Hz, -3dB Freq = 41.8 Hz, Group Delay = 12.3 ms.
+	Blocks Processing Mode: Sequential
+	Min Sampling Rate:	7400
+	Max Sampling Rate:	9200
+
+#	IIR 2nd Order MEMS TF
+	/Block
+		Filter Type:		IIR
+		Computation Method:	Single Remainder
+			B0	:   1543.75
+			B1	:   3087.5
+			B2	:   1543.75
+			A0	:   16384
+			A1	:  -1027.5
+			A2	:  -9181.5
+	\Block
+#	FIR Fixed Delay
+	/Block
+		Filter Type:		FIR
+		Computation Method:	No Remainder
+			B0	:   0
+			B1	:   0
+			B2	:   1
+			A0	:   1
+	\Block
+#	FIR 4th Order Decimation Filter
+	/Block
+		Filter Type:		FIR	
+		Computation Method:	No Remainder
+			B0	:   1
+			B1	:   4
+			B2	:   10
+			B3	:   20
+			B4	:   35
+			B5	:   56
+			B6	:   84
+			B7	:   120
+			B8	:   161
+			B9	:   204
+			B10	:   246
+			B11	:   284
+			B12	:   315
+			B13	:   336
+			B14	:   344
+			B15	:   336
+			B16	:   315
+			B17	:   284
+			B18	:   246
+			B19	:   204
+			B20	:   161
+			B21	:   120
+			B22	:   84
+			B23	:   56
+			B24	:   35
+			B25	:   20
+			B26	:   10
+			B27	:   4
+			B28	:   1
+			A0	:   4096
+	\Block
+#	FIR 18th Order Low Pass Filter with 1 sample delay (upsampled by 8)
+	/Block
+		Filter Type:		FIR	
+		Computation Method:	No Remainder
+			B0	:   0
+			B1	:   0
+			B2	:   0
+			B3	:   0
+			B4	:   0
+			B5	:   0
+			B6	:   0
+			B7	:   0
+			B8	:   39
+			B9	:   0
+			B10	:   0
+			B11	:   0
+			B12	:   0
+			B13	:   0
+			B14	:   0
+			B15	:   0
+			B16	:   121
+			B17	:   0
+			B18	:   0
+			B19	:   0
+			B20	:   0
+			B21	:   0
+			B22	:   0
+			B23	:   0
+			B24	:   275
+			B25	:   0
+			B26	:   0
+			B27	:   0
+			B28	:   0
+			B29	:   0
+			B30	:   0
+			B31	:   0
+			B32	:   512
+			B33	:   0
+			B34	:   0
+			B35	:   0
+			B36	:   0
+			B37	:   0
+			B38	:   0
+			B39	:   0
+			B40	:   821
+			B41	:   0
+			B42	:   0
+			B43	:   0
+			B44	:   0
+			B45	:   0
+			B46	:   0
+			B47	:   0
+			B48	:   1173
+			B49	:   0
+			B50	:   0
+			B51	:   0
+			B52	:   0
+			B53	:   0
+			B54	:   0
+			B55	:   0
+			B56	:   1516
+			B57	:   0
+			B58	:   0
+			B59	:   0
+			B60	:   0
+			B61	:   0
+			B62	:   0
+			B63	:   0
+			B64	:   1791
+			B65	:   0
+			B66	:   0
+			B67	:   0
+			B68	:   0
+			B69	:   0
+			B70	:   0
+			B71	:   0
+			B72	:   1944
+			B73	:   0
+			B74	:   0
+			B75	:   0
+			B76	:   0
+			B77	:   0
+			B78	:   0
+			B79	:   0
+			B80	:   1944
+			B81	:   0
+			B82	:   0
+			B83	:   0
+			B84	:   0
+			B85	:   0
+			B86	:   0
+			B87	:   0
+			B88	:   1791
+			B89	:   0
+			B90	:   0
+			B91	:   0
+			B92	:   0
+			B93	:   0
+			B94	:   0
+			B95	:   0
+			B96	:   1516
+			B97	:   0
+			B98	:   0
+			B99	:   0
+			B100	:   0
+			B101	:   0
+			B102	:   0
+			B103	:   0
+			B104	:   1173
+			B105	:   0
+			B106	:   0
+			B107	:   0
+			B108	:   0
+			B109	:   0
+			B110	:   0
+			B111	:   0
+			B112	:   821
+			B113	:   0
+			B114	:   0
+			B115	:   0
+			B116	:   0
+			B117	:   0
+			B118	:   0
+			B119	:   0
+			B120	:   512
+			B121	:   0
+			B122	:   0
+			B123	:   0
+			B124	:   0
+			B125	:   0
+			B126	:   0
+			B127	:   0
+			B128	:   275
+			B129	:   0
+			B130	:   0
+			B131	:   0
+			B132	:   0
+			B133	:   0
+			B134	:   0
+			B135	:   0
+			B136	:   121
+			B137	:   0
+			B138	:   0
+			B139	:   0
+			B140	:   0
+			B141	:   0
+			B142	:   0
+			B143	:   0
+			B144	:   39
+			A0	:   16384
+	\Block
+#	FIR Interpolation (Equivalent Averaging) Filter
+	/Block
+		Filter Type:		FIR	
+		Computation Method:	No Remainder
+			B0	:   1
+			B1	:   2
+			B2	:   3
+			B3	:   3
+			B4	:   3
+			B5	:   3
+			B6	:   3
+			B7	:   3
+			B8	:   3
+			B9	:   3
+			B10	:   3
+			B11	:   2
+			B12	:   1
+			A0	:   33
+	\Block
+
+\DigitalFilter

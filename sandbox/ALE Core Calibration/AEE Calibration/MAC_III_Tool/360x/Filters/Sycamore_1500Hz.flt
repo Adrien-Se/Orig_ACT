@@ -1,0 +1,25 @@
+####################################################################
+# Configuration file for Sycamore 4th Order Bessel 1500 Hz filter  #
+#    Fc(-3dB)=1500Hz;                                              #
+####################################################################
+/Filter
+
+	Name:					Sycamore_1500Hz
+	Description:			Bessel 4 Pole 1500 Hz
+	Type:					Pole Filter
+	Direct Transfer:		0
+	Gain:					1.0
+
+	/Complex Pole
+		PoleRealPart:			-9396.40322874474
+		PoleImaginaryPart:		 11869.14027711268
+		ResidueRealPart:		-7429.40167505897
+		ResidueImaginaryPart:	 10022.98776131975
+	\Complex Pole
+	/Complex Pole
+		PoleRealPart:			-12935.68771472539
+		PoleImaginaryPart:		 3873.43028732929
+		ResidueRealPart:		 7429.40167505896
+		ResidueImaginaryPart:	-37501.38844597555
+	\Complex Pole
+\Filter

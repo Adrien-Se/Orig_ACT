@@ -1,0 +1,32 @@
+###########################################################
+# Configuration file for SMA75x digital filter
+###########################################################
+/DigitalFilter
+
+	Name:SMA75x
+	Description: SMA75x digital filter. Sample Freq = 8928.5 Hz, -3dB Freq = 440.3 Hz, Group Delay = 0.728 ms.
+	Blocks Processing Mode: Sequential
+	Min Sampling Rate:	8000
+	Max Sampling Rate:	9857
+
+	/Block
+		Filter Type:		FIR	
+		Computation Method:	No Remainder
+		A0:	 1262
+		B0:	 9
+		B13:	 9
+		B1:	 25
+		B12:	 25
+		B2:	 52
+		B11:	 52
+		B3:	 87
+		B10:	 87
+		B4:	 125
+		B9:	 125
+		B5:	 157
+		B8:	 157
+		B6:	 176
+		B7:	 176
+	\Block
+
+\DigitalFilter

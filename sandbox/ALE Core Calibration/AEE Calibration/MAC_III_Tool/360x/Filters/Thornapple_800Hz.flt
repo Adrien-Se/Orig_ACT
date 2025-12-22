@@ -1,0 +1,25 @@
+####################################################################
+# Configuration file for Thornapple 4th Order Bessel 800 Hz filter #
+#    Fc(-3dB)=800Hz;                                               #
+####################################################################
+/Filter
+
+	Name:					Thornapple_800Hz
+	Description:			Bessel 4 Pole 800 Hz
+	Type:					Pole Filter
+	Direct Transfer:		0
+	Gain:					1.0
+
+	/Complex Pole
+		PoleRealPart:			-5011.415055330525
+		PoleImaginaryPart:		 6330.208147793423
+		ResidueRealPart:		-3962.34756003147
+		ResidueImaginaryPart:	 5345.59347270385
+	\Complex Pole
+	/Complex Pole
+		PoleRealPart:			-6899.033447853554
+		PoleImaginaryPart:		 2065.829486575608
+		ResidueRealPart:		 3962.34756003148
+		ResidueImaginaryPart:	-20000.74050452041
+	\Complex Pole
+\Filter

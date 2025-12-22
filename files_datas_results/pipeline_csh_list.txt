@@ -1,0 +1,2 @@
+Batch mode computations successful.
+Report successfully generated.
