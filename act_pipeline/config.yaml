@@ -1,31 +1,33 @@
-
-converter_results:
-  input_xlsx_path: data/xlsx/results.xlsx
-  sheet_name: 'Rear Main'
-
+converter_cal:
+  input_cal_path: act_pipeline/data/cal/IPSP74______1FHHSHHB01RHHPHHEHM1.cal
+  output_path: act_pipeline/data/cal/new_calibration.cal
 converter_params:
-  input_cal_path: data/cal/IPSP74______1FHHSHHB01RHHPHHEHM1.cal
-  rita_params_path: data/json/SC3_RITA_params.json
   expected_group_of_params:
     group1:
-      - 'State Manager'
-      - 'Severity'
-      - 'Mode'
-      - 'Cross Immunity'
-      - 'Confirmation'
+    - State Manager
+    - Severity
+    - Mode
+    - Cross Immunity
+    - Confirmation
     group2:
-      - 'Slow Task'
-      - 'Sensor Selection'
-      - 'Signal Conditioning'
-      - 'State Manager'
-      - 'Severity'
-      - 'Mode'
-      - 'Cross Immunity'
-      - 'Confirmation'
-
-converter_cal:
-  output_path: data/cal/new_calibration.cal
-  input_cal_path: data/cal/IPSP74______1FHHSHHB01RHHPHHEHM1.cal
-
+    - Slow Task
+    - Sensor Selection
+    - Signal Conditioning
+    - State Manager
+    - Severity
+    - Mode
+    - Cross Immunity
+    - Confirmation
+  input_cal_path: act_pipeline/data/cal/IPSP74______1FHHSHHB01RHHPHHEHM1.cal
+  rita_params_path: act_pipeline/data/json/SC3_RITA_params.json
+converter_results:
+  input_xlsx_path: act_pipeline/data/xlsx/results.xlsx
+  sheet_name: Rear Main
 loss_params:
-  log_path: data/log/loss_computation.log
+  log_path: act_pipeline/data/log/loss_computation.log
+simulation:
+  bch_path: act_pipeline/data/bch/pipeline_csh_list.bch
+  mac_exe: /path/to/mac.exe
+  result_glob: xlsx/*.xlsx
+  timeout_s: 300
+  workdir: act_pipeline/data/

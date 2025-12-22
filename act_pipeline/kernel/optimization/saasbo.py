@@ -4,7 +4,7 @@ import torch
 import numpy as np
 from botorch.models import SingleTaskGP
 from botorch.models.transforms import Normalize, Standardize
-from botorch.fit import fit_gpytorch_model
+from botorch.fit import fit_gpytorch_mll
 from botorch.acquisition import LogExpectedImprovement
 from botorch.optim import optimize_acqf
 from gpytorch.mlls import ExactMarginalLogLikelihood
@@ -24,13 +24,28 @@ class SaasboCalibrationOptimizer:
         n_initial_random: int = 20,
     ):
         self.__normalizer = ParamNormalizer(param_specs)
-        self.__dim = len(param_specs)
+        self.__dim = len(self.__normalizer)
         self.__device = device
 
         self.__X: list[np.ndarray] = []  # normalized params
-        self.__y: list[float] = []  # log loss
+        self.__y: list[np.float64] = []  # log loss
 
         self.n_initial_random = n_initial_random
+    
+    @property
+    def dim(self) -> int:
+        """Return the dimensionality of the parameter space."""
+        return self.__dim
+    
+    @property
+    def X(self) -> list[np.ndarray]:
+        """Return the list of normalized parameter sets evaluated so far."""
+        return self.__X
+    
+    @property
+    def y(self) -> list[np.float64]:
+        """Return the list of log losses corresponding to evaluated parameter sets."""
+        return self.__y
 
     def ask(self) -> dict[str, int]:
         """Suggest the next set of parameters to evaluate."""
@@ -39,9 +54,9 @@ class SaasboCalibrationOptimizer:
             x = np.random.rand(self.__dim)
             return self.__normalizer.denormalize(x)
 
-        # Convert data
-        X = torch.tensor(self.__X, device=self.__device)
-        y = torch.tensor(self.__y, device=self.__device).unsqueeze(-1)
+        # Convert data (avoid warning by stacking to numpy array first)
+        X = torch.tensor(np.array(self.__X), device=self.__device)
+        y = torch.tensor(np.array(self.__y), device=self.__device).unsqueeze(-1)
 
         # Gaussian Process model (SAAS-like via priors could be added later)
         model = SingleTaskGP(
@@ -51,7 +66,7 @@ class SaasboCalibrationOptimizer:
             outcome_transform=Standardize(1),
         )
         mll = ExactMarginalLogLikelihood(model.likelihood, model)
-        fit_gpytorch_model(mll)
+        fit_gpytorch_mll(mll)
 
         # Acquisition function
         acq = LogExpectedImprovement(model, best_f=y.min())
@@ -78,5 +93,5 @@ class SaasboCalibrationOptimizer:
         x = self.__normalizer.normalize(params)
         self.__X.append(x)
 
-        # Log-transform loss
-        self.__y.append(np.log(loss))
+        # Log-transform loss # converted to torch.float32
+        self.__y.append(np.log(loss, dtype=np.float64))

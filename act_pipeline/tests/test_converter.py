@@ -4,12 +4,12 @@ import json
 from pathlib import Path
 import yaml
 
-from ..kernel.converters.converter_results import convert_results
-from ..kernel.converters.converter_params import convert_params
-from ..kernel.converters.converter_cal import convert_cal
+from act_pipeline.kernel.converters.converter_results import convert_results
+from act_pipeline.kernel.converters.converter_params import convert_params
+from act_pipeline.kernel.converters.converter_cal import convert_cal
 
 
-CONFIG_PATH = Path("config.yaml")
+CONFIG_PATH = Path("act_pipeline/config.yaml")
 with CONFIG_PATH.open("r", encoding="utf-8") as file:
     config = yaml.safe_load(file)
 
@@ -39,7 +39,7 @@ def test_convert_params() -> None:
     )
     assert isinstance(calibration_params, dict), "The converted calibration parameters should be a dictionary."
     assert len(calibration_params) > 0, "The calibration parameters dictionary should not be empty."
-    with open('data/log/calibration_params.log', 'w', encoding='utf-8') as log_file:
+    with open('act_pipeline/data/log/calibration_params.log', 'w', encoding='utf-8') as log_file:
         json.dump(calibration_params, log_file, indent=4)
 
 

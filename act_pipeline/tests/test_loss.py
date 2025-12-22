@@ -2,9 +2,9 @@
 
 from pathlib import Path
 import yaml
-from ..kernel.loss import compute_loss
+from act_pipeline.kernel.loss import compute_loss
 
-CONFIG_PATH = Path("config.yaml")
+CONFIG_PATH = Path("act_pipeline/config.yaml")
 with CONFIG_PATH.open("r", encoding="utf-8") as file:
     config = yaml.safe_load(file)
 

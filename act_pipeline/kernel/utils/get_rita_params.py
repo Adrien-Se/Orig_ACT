@@ -1,6 +1,6 @@
 # Code to convert RITA parameters from configuration file to a dictionary and save as JSON
 
-NAME_CFG_FILE = 'data/cfg/SC2_RITA_Calibration.cfg'
+NAME_CFG_FILE = 'act_pipeline/data/cfg/SC2_RITA_Calibration.cfg'
 
 with open(NAME_CFG_FILE, 'r', encoding='latin1') as file:
     config = file.read()
@@ -22,6 +22,11 @@ def parse_RITA(input_str: str) -> dict[str, dict[str, dict[str, int]]]:
             is_rita_section = True
             will_be_group_name = True
             continue
+        if '\\RITA' in line:
+            # save last group
+            if group_name and group_params:
+                rita_params[group_name] = group_params
+            break
         if is_rita_section:
             if will_be_group_name:
                 group_name = line.strip('/').strip()
@@ -63,5 +68,5 @@ dict_params = parse_RITA(config)
 
 # save dict_params to json file
 import json
-with open('data/json/rita_params.json', 'w', encoding='utf-8') as json_file:
+with open('act_pipeline/data/json/rita_params.json', 'w', encoding='utf-8') as json_file:
     json.dump(dict_params, json_file, indent=4)

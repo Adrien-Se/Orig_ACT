@@ -4,13 +4,13 @@ import pandas as pd
 import yaml
 import numpy as np
 from pathlib import Path
-from .converters.converter_results import convert_results
+from act_pipeline.kernel.converters.converter_results import convert_results
 
 # ----------------------------
 # Configuration loading
 # ----------------------------
 
-CONFIG_PATH = Path("config.yaml")
+CONFIG_PATH = Path("act_pipeline/config.yaml")
 NF_REPLACEMENT_VALUE = -5.
 
 pd.set_option('future.no_silent_downcasting', True)
