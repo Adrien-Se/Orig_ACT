@@ -1,0 +1,156 @@
+(Orig_ACT) PS C:\ASE-ACT\Orig_ACT> ^C
+(Orig_ACT) PS C:\ASE-ACT\Orig_ACT> python -m act_pipeline.scripts.run_pipeline
+2025-12-23 09:42:23,021 INFO: Step 1: Converting CAL to params...
+2025-12-23 09:42:23,128 INFO: Step 1 done in 0.11 s.
+2025-12-23 09:42:23,129 INFO: Step 2: Setting up optimizer...
+2025-12-23 09:42:23,164 INFO: Step 2 done in 0.04 s.
+2025-12-23 09:42:23,164 INFO: Step 3: Starting optimization loop for 10 iterations...
+2025-12-23 09:42:23,164 INFO: Iteration 1/10
+2025-12-23 09:42:23,186 INFO:   CAL conversion: 0.02 s
+2025-12-23 09:42:43,176 INFO:   Simulation: 19.99 s
+2025-12-23 09:42:43,177 ERROR: Simulation failed: 
+2025-12-23 09:42:43,177 INFO: Iteration 2/10
+2025-12-23 09:42:43,198 INFO:   CAL conversion: 0.02 s
+2025-12-23 09:43:01,055 INFO:   Simulation: 17.86 s
+2025-12-23 09:43:01,056 ERROR: Simulation failed: 
+2025-12-23 09:43:01,056 INFO: Iteration 3/10
+2025-12-23 09:43:01,073 INFO:   CAL conversion: 0.02 s
+2025-12-23 09:43:18,960 INFO:   Simulation: 17.89 s
+2025-12-23 09:43:18,961 ERROR: Simulation failed: 
+2025-12-23 09:43:18,961 INFO: Iteration 4/10
+2025-12-23 09:43:18,978 INFO:   CAL conversion: 0.02 s
+2025-12-23 09:43:36,847 INFO:   Simulation: 17.87 s
+2025-12-23 09:43:36,847 ERROR: Simulation failed: 
+2025-12-23 09:43:36,848 INFO: Iteration 5/10
+2025-12-23 09:43:36,866 INFO:   CAL conversion: 0.02 s
+2025-12-23 09:43:54,696 INFO:   Simulation: 17.83 s
+2025-12-23 09:43:54,696 ERROR: Simulation failed: 
+2025-12-23 09:43:54,697 INFO: Iteration 6/10
+2025-12-23 09:43:54,715 INFO:   CAL conversion: 0.02 s
+2025-12-23 09:44:12,592 INFO:   Simulation: 17.88 s
+2025-12-23 09:44:12,592 ERROR: Simulation failed: 
+2025-12-23 09:44:12,593 INFO: Iteration 7/10
+2025-12-23 09:44:12,612 INFO:   CAL conversion: 0.02 s
+2025-12-23 09:44:30,570 INFO:   Simulation: 17.96 s
+2025-12-23 09:44:30,570 ERROR: Simulation failed: 
+2025-12-23 09:44:30,571 INFO: Iteration 8/10
+2025-12-23 09:44:30,590 INFO:   CAL conversion: 0.02 s
+2025-12-23 09:44:48,566 INFO:   Simulation: 17.98 s
+2025-12-23 09:44:48,567 ERROR: Simulation failed: 
+2025-12-23 09:44:48,567 INFO: Iteration 9/10
+2025-12-23 09:44:48,584 INFO:   CAL conversion: 0.02 s
+2025-12-23 09:45:06,439 INFO:   Simulation: 17.85 s
+2025-12-23 09:45:06,439 ERROR: Simulation failed: 
+2025-12-23 09:45:06,440 INFO: Iteration 10/10
+2025-12-23 09:45:06,460 INFO:   CAL conversion: 0.02 s
+2025-12-23 09:45:24,352 INFO:   Simulation: 17.89 s
+2025-12-23 09:45:24,352 ERROR: Simulation failed: 
+2025-12-23 09:45:24,353 INFO: Optimization finished in 181.19 s.
+2025-12-23 09:45:24,353 INFO: Total pipeline time: 181.33 s.
+(Orig_ACT) PS C:\ASE-ACT\Orig_ACT> python -m act_pipeline.scripts.run_pipeline
+2025-12-23 09:52:20,320 INFO: Step 1: Converting CAL to params...
+2025-12-23 09:52:20,336 INFO: Step 1 done in 0.02 s.
+2025-12-23 09:52:20,336 INFO: Step 2: Setting up optimizer...
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\ASE-ACT\Orig_ACT\act_pipeline\scripts\run_pipeline.py", line 115, in <module>
+    main()
+    ~~~~^^
+  File "C:\ASE-ACT\Orig_ACT\act_pipeline\scripts\run_pipeline.py", line 66, in main
+    optimizer.tell(current_params, None)  # Initialize optimizer with current params
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ASE-ACT\Orig_ACT\act_pipeline\kernel\optimization\saasbo.py", line 93, in tell
+    x = self.__normalizer.normalize(params)
+  File "C:\ASE-ACT\Orig_ACT\act_pipeline\kernel\optimization\param_normalizer.py", line 39, in normalize
+    v = params[param_name]
+        ~~~~~~^^^^^^^^^^^^
+KeyError: 'R_CONFIG_LGT_CENTRAL_SENSOR_INDEX'
+(Orig_ACT) PS C:\ASE-ACT\Orig_ACT> python -m act_pipeline.scripts.run_pipeline
+2025-12-23 09:53:33,138 INFO: Step 1: Converting CAL to params...
+2025-12-23 09:53:33,155 INFO: Step 1 done in 0.02 s.
+2025-12-23 09:53:33,156 INFO: Extracted parameters: []
+2025-12-23 09:53:33,156 INFO: Step 2: Setting up optimizer...
+2025-12-23 09:53:33,201 WARNING: Missing parameters in CAL: {'State Manager', 'Signal Conditioning', 'Severity', 'Confirmation', 'Interface Parameters', 'Slow Task', 'Mode', 'Deployment Decision', 'Sensor Selection', 'Cross Immunity'}
+2025-12-23 09:53:33,201 INFO: Adding missing parameters with default values from param_specs...
+2025-12-23 09:53:33,202 ERROR: Cannot determine default value for State Manager
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\ASE-ACT\Orig_ACT\act_pipeline\scripts\run_pipeline.py", line 147, in <module>
+    main()
+    ~~~~^^
+  File "C:\ASE-ACT\Orig_ACT\act_pipeline\scripts\run_pipeline.py", line 87, in main
+    raise ValueError(f"Missing parameter {param} has no default or bounds")
+ValueError: Missing parameter State Manager has no default or bounds
+(Orig_ACT) PS C:\ASE-ACT\Orig_ACT> python -m act_pipeline.scripts.run_pipeline
+2025-12-23 10:00:51,946 INFO: Step 1: Converting CAL to params...
+2025-12-23 10:00:51,947 INFO: CAL file: C:\Data\files_datas_results\IPSP74______1FHHSHHB01RHHPHHEHM1.cal
+2025-12-23 10:00:51,948 INFO: Params spec file: C:\ASE-ACT\Orig_ACT\act_pipeline\data\json\SC3_RITA_params.json
+2025-12-23 10:00:51,948 INFO: Groups to extract: ['group1', 'group2']
+2025-12-23 10:00:52,014 INFO: Step 1 done in 0.07 s.
+2025-12-23 10:00:52,015 WARNING: No parameters extracted from CAL file!
+2025-12-23 10:00:52,015 WARNING: This might indicate:
+2025-12-23 10:00:52,015 WARNING:   - group_of_params doesn't match the structure in rita_params_path
+2025-12-23 10:00:52,016 WARNING:   - convert_params is looking for the wrong parameter names
+2025-12-23 10:00:52,016 WARNING:   - CAL file format is not being parsed correctly
+2025-12-23 10:00:52,016 INFO: Step 2: Setting up optimizer...
+2025-12-23 10:00:52,055 INFO: Loaded param specs, top-level keys: ['Sensor Selection', 'Signal Conditioning', 'State Manager', 'Severity', 'Mode', 'Cross Immunity', 'Confirmation', 'Deployment Decision', 'Interface Parameters', 'Slow Task']    
+2025-12-23 10:00:52,055 INFO: Extracted 193 parameter definitions from param_specs
+2025-12-23 10:00:52,056 INFO: Sample param names: ['R_CONFIG_LGT_CENTRAL_SENSOR_INDEX', 'R_CONFIG_LAT_CENTRAL_SENSOR_INDEX', 'R_CONFIG_LGT_RSU1_SENSOR_INDEX', 'R_CONFIG_LGT_RSU2_SENSOR_INDEX', 'R_CONFIG_LGT_RSU3_SENSOR_INDEX', 'R_CONFIG_CONF_RSU1_SENSOR_INDEX', 'R_CONFIG_CONF_RSU2_SENSOR_INDEX', 'R_CONFIG_LGT_SECONDARY_SENSOR_INDEX', 'R_SIC_FLT_CENTRAL_X_DV_B0', 'R_SIC_FLT_CENTRAL_X_DV_A1']
+2025-12-23 10:00:52,056 WARNING: Initializing all parameters with default values since CAL extraction failed
+2025-12-23 10:00:52,057 INFO: Initialized 193 parameters with defaults
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\ASE-ACT\Orig_ACT\act_pipeline\scripts\run_pipeline.py", line 205, in <module>
+    main()
+    ~~~~^^
+  File "C:\ASE-ACT\Orig_ACT\act_pipeline\scripts\run_pipeline.py", line 148, in main
+    optimizer = SaasboCalibrationOptimizer(all_params)
+  File "C:\ASE-ACT\Orig_ACT\act_pipeline\kernel\optimization\saasbo.py", line 26, in __init__
+    self.__normalizer = ParamNormalizer(param_specs)
+                        ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\ASE-ACT\Orig_ACT\act_pipeline\kernel\optimization\param_normalizer.py", line 10, in __init__
+    self.__specs_validation(specs)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\ASE-ACT\Orig_ACT\act_pipeline\kernel\optimization\param_normalizer.py", line 22, in __specs_validation
+    raise TypeError(f"Parameter '{param_name}' in group '{group_name}' must be a dictionary.")
+TypeError: Parameter 'min' in group 'R_CONFIG_LGT_CENTRAL_SENSOR_INDEX' must be a dictionary.
+(Orig_ACT) PS C:\ASE-ACT\Orig_ACT> python -m act_pipeline.scripts.run_pipeline
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\ASE-ACT\Orig_ACT\act_pipeline\scripts\run_pipeline.py", line 10, in <module>
+    from act_pipeline.kernel.converters.converter_params import convert_params
+  File "C:\ASE-ACT\Orig_ACT\act_pipeline\kernel\converters\converter_params.py", line 10, in <module>
+    from act_pipeline.kernel.converters.converter_params import convert_params
+ImportError: cannot import name 'convert_params' from partially initialized module 'act_pipeline.kernel.converters.converter_params' (most likely due to a circular import) (C:\ASE-ACT\Orig_ACT\act_pipeline\kernel\converters\converter_params.py)
+(Orig_ACT) PS C:\ASE-ACT\Orig_ACT> python -m act_pipeline.scripts.run_pipeline
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\ASE-ACT\Orig_ACT\act_pipeline\scripts\run_pipeline.py", line 10, in <module>
+    from act_pipeline.kernel.converters.converter_params import convert_params
+  File "C:\ASE-ACT\Orig_ACT\act_pipeline\kernel\converters\converter_params.py", line 10, in <module>
+    from act_pipeline.kernel.converters.converter_params import convert_params
+ImportError: cannot import name 'convert_params' from partially initialized module 'act_pipeline.kernel.converters.converter_params' (most likely due to a circular import) (C:\ASE-ACT\Orig_ACT\act_pipeline\kernel\converters\converter_params.py)
+(Orig_ACT) PS C:\ASE-ACT\Orig_ACT> python -m act_pipeline.scripts.run_pipeline
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\ASE-ACT\Orig_ACT\act_pipeline\scripts\run_pipeline.py", line 10, in <module>
+    from act_pipeline.kernel.converters.converter_params import convert_params
+  File "C:\ASE-ACT\Orig_ACT\act_pipeline\kernel\converters\converter_params.py", line 10, in <module>
+    from act_pipeline.kernel.converters.converter_params import convert_params
+ImportError: cannot import name 'convert_params' from partially initialized module 'act_pipeline.kernel.converters.converter_params' (most likely due to a circular import) (C:\ASE-ACT\Orig_ACT\act_pipeline\kernel\converters\converter_params.py)
+(Orig_ACT) PS C:\ASE-ACT\Orig_ACT> python -m act_pipeline.scripts.run_pipeline
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\ASE-ACT\Orig_ACT\act_pipeline\scripts\run_pipeline.py", line 10, in <module>
+    from act_pipeline.kernel.converters.converter_params import convert_params
+  File "C:\ASE-ACT\Orig_ACT\act_pipeline\kernel\converters\converter_params.py", line 10, in <module>
+    from act_pipeline.kernel.converters.converter_params import convert_params
+ImportError: cannot import name 'convert_params' from partially initialized module 'act_pipeline.kernel.converters.converter_params' (most likely due to a circular import) (C:\ASE-ACT\Orig_ACT\act_pipeline\kernel\converters\converter_params.py)
+(Orig_ACT) PS C:\ASE-ACT\Orig_ACT> python -m act_pipeline.scripts.run_pipeline
