@@ -1,0 +1,186 @@
+(Orig_ACT) PS C:\ASE-ACT\Orig_ACT> python -m act_pipeline.scripts.run_pipeline
+2025-12-22 17:24:26,153 INFO: Step 1: Converting CAL to params...
+2025-12-22 17:24:26,259 INFO: Step 1 done in 0.11 s.
+2025-12-22 17:24:26,260 INFO: Step 2: Setting up optimizer...
+2025-12-22 17:24:26,296 INFO: Step 2 done in 0.04 s.
+2025-12-22 17:24:26,297 INFO: Step 3: Starting optimization loop for 10 iterations...
+2025-12-22 17:24:26,298 INFO: Iteration 1/10
+2025-12-22 17:24:26,320 INFO:   CAL conversion: 0.02 s
+2025-12-22 17:24:49,099 INFO:   Simulation: 22.78 s
+2025-12-22 17:24:49,099 ERROR: Simulation failed: 
+2025-12-22 17:24:49,099 INFO: Iteration 2/10
+2025-12-22 17:24:49,125 INFO:   CAL conversion: 0.02 s
+2025-12-22 17:25:09,168 INFO:   Simulation: 20.04 s
+2025-12-22 17:25:09,168 ERROR: Simulation failed: 
+2025-12-22 17:25:09,168 INFO: Iteration 3/10
+2025-12-22 17:25:09,186 INFO:   CAL conversion: 0.02 s
+2025-12-22 17:25:30,426 INFO:   Simulation: 21.24 s
+2025-12-22 17:25:30,427 ERROR: Simulation failed: 
+2025-12-22 17:25:30,427 INFO: Iteration 4/10
+2025-12-22 17:25:30,453 INFO:   CAL conversion: 0.02 s
+2025-12-22 17:25:50,792 INFO:   Simulation: 20.34 s
+2025-12-22 17:25:50,792 ERROR: Simulation failed: 
+2025-12-22 17:25:50,792 INFO: Iteration 5/10
+2025-12-22 17:25:50,815 INFO:   CAL conversion: 0.02 s
+2025-12-22 17:26:11,266 INFO:   Simulation: 20.45 s
+2025-12-22 17:26:11,267 ERROR: Simulation failed: 
+2025-12-22 17:26:11,268 INFO: Iteration 6/10
+2025-12-22 17:26:11,296 INFO:   CAL conversion: 0.03 s
+2025-12-22 17:26:32,162 INFO:   Simulation: 20.87 s
+2025-12-22 17:26:32,163 ERROR: Simulation failed: 
+2025-12-22 17:26:32,163 INFO: Iteration 7/10
+2025-12-22 17:26:32,186 INFO:   CAL conversion: 0.02 s
+2025-12-22 17:26:51,563 INFO:   Simulation: 19.38 s
+2025-12-22 17:26:51,564 ERROR: Simulation failed: 
+2025-12-22 17:26:51,564 INFO: Iteration 8/10
+2025-12-22 17:26:51,583 INFO:   CAL conversion: 0.02 s
+2025-12-22 17:27:11,106 INFO:   Simulation: 19.52 s
+2025-12-22 17:27:11,107 ERROR: Simulation failed: 
+2025-12-22 17:27:11,107 INFO: Iteration 9/10
+2025-12-22 17:27:11,156 INFO:   CAL conversion: 0.05 s
+2025-12-22 17:27:31,663 INFO:   Simulation: 20.51 s
+2025-12-22 17:27:31,663 ERROR: Simulation failed: 
+2025-12-22 17:27:31,664 INFO: Iteration 10/10
+2025-12-22 17:27:31,691 INFO:   CAL conversion: 0.03 s
+2025-12-22 17:27:51,499 INFO:   Simulation: 19.81 s
+2025-12-22 17:27:51,500 ERROR: Simulation failed: 
+2025-12-22 17:27:51,500 INFO: Optimization finished in 205.20 s.
+2025-12-22 17:27:51,501 INFO: Total pipeline time: 205.35 s.
+(Orig_ACT) PS C:\ASE-ACT\Orig_ACT> converter_cal:
+converter_cal:: The term 'converter_cal:' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+(Orig_ACT) PS C:\ASE-ACT\Orig_ACT>   input_cal_path: act_pipeline/data/cal/IPSP74______1FHHSHHB01RHHPHHEHM1.cal
+input_cal_path:: The term 'input_cal_path:' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+(Orig_ACT) PS C:\ASE-ACT\Orig_ACT>   output_path: act_pipeline/data/cal/new_calibration.cal
+output_path:: The term 'output_path:' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+(Orig_ACT) PS C:\ASE-ACT\Orig_ACT> converter_params:
+converter_params:: The term 'converter_params:' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+(Orig_ACT) PS C:\ASE-ACT\Orig_ACT>   expected_group_of_params:
+expected_group_of_params:: The term 'expected_group_of_params:' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+(Orig_ACT) PS C:\ASE-ACT\Orig_ACT>     group1:
+group1:: The term 'group1:' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+(Orig_ACT) PS C:\ASE-ACT\Orig_ACT>     - State Manager
+ParserError: 
+Line |
+   1 |      - State Manager
+     |       ~
+     | Missing expression after unary operator '-'.
+(Orig_ACT) PS C:\ASE-ACT\Orig_ACT>     - Severity
+ParserError: 
+Line |
+   1 |      - Severity
+     |       ~
+     | Missing expression after unary operator '-'.
+(Orig_ACT) PS C:\ASE-ACT\Orig_ACT>     - Mode
+ParserError: 
+Line |
+   1 |      - Mode
+     |       ~
+     | Missing expression after unary operator '-'.
+(Orig_ACT) PS C:\ASE-ACT\Orig_ACT>     - Cross Immunity
+ParserError: 
+Line |
+   1 |      - Cross Immunity
+     |       ~
+     | Missing expression after unary operator '-'.
+(Orig_ACT) PS C:\ASE-ACT\Orig_ACT>     - Confirmation
+ParserError: 
+Line |
+   1 |      - Confirmation
+     |       ~
+     | Missing expression after unary operator '-'.
+(Orig_ACT) PS C:\ASE-ACT\Orig_ACT>     group2:
+group2:: The term 'group2:' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+(Orig_ACT) PS C:\ASE-ACT\Orig_ACT>     - Slow Task
+ParserError: 
+Line |
+   1 |      - Slow Task
+     |       ~
+     | Missing expression after unary operator '-'.
+(Orig_ACT) PS C:\ASE-ACT\Orig_ACT>     - Sensor Selection
+ParserError: 
+Line |
+   1 |      - Sensor Selection
+     |       ~
+     | Missing expression after unary operator '-'.
+(Orig_ACT) PS C:\ASE-ACT\Orig_ACT>     - Signal Conditioning
+ParserError: 
+Line |
+   1 |      - Signal Conditioning
+     |       ~
+     | Missing expression after unary operator '-'.
+(Orig_ACT) PS C:\ASE-ACT\Orig_ACT>     - State Manager
+ParserError: 
+Line |
+   1 |      - State Manager
+     |       ~
+     | Missing expression after unary operator '-'.
+(Orig_ACT) PS C:\ASE-ACT\Orig_ACT>     - Severity
+ParserError: 
+Line |
+   1 |      - Severity
+     |       ~
+     | Missing expression after unary operator '-'.
+(Orig_ACT) PS C:\ASE-ACT\Orig_ACT>     - Mode
+ParserError: 
+Line |
+   1 |      - Mode
+     |       ~
+     | Missing expression after unary operator '-'.
+(Orig_ACT) PS C:\ASE-ACT\Orig_ACT>     - Cross Immunity
+ParserError: 
+Line |
+   1 |      - Cross Immunity
+     |       ~
+     | Missing expression after unary operator '-'.
+(Orig_ACT) PS C:\ASE-ACT\Orig_ACT>     - Confirmation
+ParserError: 
+Line |
+   1 |      - Confirmation
+     |       ~
+     | Missing expression after unary operator '-'.
+(Orig_ACT) PS C:\ASE-ACT\Orig_ACT>   input_cal_path: act_pipeline/data/cal/IPSP74______1FHHSHHB01RHHPHHEHM1.cal
+input_cal_path:: The term 'input_cal_path:' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+(Orig_ACT) PS C:\ASE-ACT\Orig_ACT>   rita_params_path: act_pipeline/data/json/SC3_RITA_params.json
+rita_params_path:: The term 'rita_params_path:' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+(Orig_ACT) PS C:\ASE-ACT\Orig_ACT> converter_results:
+converter_results:: The term 'converter_results:' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+(Orig_ACT) PS C:\ASE-ACT\Orig_ACT>   input_xlsx_path: "C:\Data\files_datas_results\pipeline_csh_list\pipeline_generationpipeline_csh_listGlobal Result.xlsx"
+input_xlsx_path:: The term 'input_xlsx_path:' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+(Orig_ACT) PS C:\ASE-ACT\Orig_ACT>   sheet_name: Rear Main
+sheet_name:: The term 'sheet_name:' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+(Orig_ACT) PS C:\ASE-ACT\Orig_ACT> loss_params:
+loss_params:: The term 'loss_params:' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+(Orig_ACT) PS C:\ASE-ACT\Orig_ACT>   log_path: act_pipeline/data/log/loss_computation.log
+log_path:: The term 'log_path:' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+(Orig_ACT) PS C:\ASE-ACT\Orig_ACT> simulation:
+simulation:: The term 'simulation:' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+(Orig_ACT) PS C:\ASE-ACT\Orig_ACT>   bch_path: "C:\Data\files_datas_results\pipeline_csh_list.bch"
+bch_path:: The term 'bch_path:' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+(Orig_ACT) PS C:\ASE-ACT\Orig_ACT>   mac_exe: "C:\Data\sandbox\ALE Core Calibration\AEE Calibration\MAC_III_Tool\360x\bin\Mac.exe"
+mac_exe:: The term 'mac_exe:' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+(Orig_ACT) PS C:\ASE-ACT\Orig_ACT>   result_glob: xlsx/*.xlsx
+result_glob:: The term 'result_glob:' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+(Orig_ACT) PS C:\ASE-ACT\Orig_ACT>   timeout_s: 300
+timeout_s:: The term 'timeout_s:' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+(Orig_ACT) PS C:\ASE-ACT\Orig_ACT>   workdir: act_pipeline/data/
+workdir:: The term 'workdir:' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
