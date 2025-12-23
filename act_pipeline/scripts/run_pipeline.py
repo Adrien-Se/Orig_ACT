@@ -13,9 +13,11 @@ from act_pipeline.kernel.loss import compute_loss
 from act_pipeline.kernel.simulation.runner import run_mac_batch
 from act_pipeline.kernel.optimization.saasbo import SaasboCalibrationOptimizer
 
+
 def main():
 	# Setup logging
-	log_path = "run_pipeline.log"
+	logging_date_time = time.strftime("%Y%m%d-%H%M%S")
+	log_path = f"run_pipeline_{logging_date_time}.log"
 	logging.basicConfig(
 		level=logging.INFO,
 		format='%(asctime)s %(levelname)s: %(message)s',
@@ -54,7 +56,7 @@ def main():
 	# --- Step 1: Convert CAL to params ---
 	t0 = time.time()
 	logging.info("Step 1: Converting CAL to params...")
-	params = convert_params(cal_path, rita_params_path, group_of_params)
+	current_params = convert_params(cal_path, rita_params_path, group_of_params)
 	t1 = time.time()
 	logging.info(f"Step 1 done in {t1-t0:.2f} s.")
 
@@ -70,40 +72,47 @@ def main():
 	n_iterations = 10
 	logging.info(f"Step 3: Starting optimization loop for {n_iterations} iterations...")
 	for i in range(n_iterations):
-		iter_start = time.time()
-		logging.info(f"Iteration {i+1}/{n_iterations}")
-		# Suggest new params
-		new_params = optimizer.ask()
+		try:
+			iter_start = time.time()
+			logging.info(f"Iteration {i+1}/{n_iterations}")
+			
+			# Run simulation (external tool)
+			t_sim = time.time()
+			sim_result = run_mac_batch(mac_exe, bch_path, workdir, timeout_s, result_glob)
+			t_sim_done = time.time()
+			logging.info(f"  Simulation: {t_sim_done-t_sim:.2f} s")
+			if sim_result.returncode != 0:
+				logging.error(f"Simulation failed: {sim_result.stderr}")
+				continue
 
-		# Convert params to CAL format
-		t_cal = time.time()
-		convert_cal(output_cal_path, input_cal_path, new_params)
-		t_cal_done = time.time()
-		logging.info(f"  CAL conversion: {t_cal_done-t_cal:.2f} s")
+			# Compute loss from simulation result
+			t_loss = time.time()
+			if sim_result.result_xlsx:
+				loss = compute_loss(sim_result.result_xlsx, sheet_name)
+			else:
+				logging.warning("No result file found, skipping loss computation.")
+				continue
+			t_loss_done = time.time()
+			logging.info(f"  Loss computation: {t_loss_done-t_loss:.2f} s")
 
-		# Run simulation (external tool)
-		t_sim = time.time()
-		sim_result = run_mac_batch(mac_exe, bch_path, workdir, timeout_s, result_glob)
-		t_sim_done = time.time()
-		logging.info(f"  Simulation: {t_sim_done-t_sim:.2f} s")
-		if sim_result.returncode != 0:
-			logging.error(f"Simulation failed: {sim_result.stderr}")
-			continue
+			# Update optimizer with observed loss
+			logging.info(f"  Loss: {loss}")
+			optimizer.tell(current_params, loss)
 
-		# Compute loss from simulation result
-		t_loss = time.time()
-		if sim_result.result_xlsx:
-			loss = compute_loss(sim_result.result_xlsx, sheet_name)
-		else:
-			logging.warning("No result file found, skipping loss computation.")
-			continue
-		t_loss_done = time.time()
-		logging.info(f"  Loss computation: {t_loss_done-t_loss:.2f} s")
+			# Suggest new params
+			current_params = optimizer.ask()
 
-		logging.info(f"  Loss: {loss}")
-		optimizer.tell(new_params, loss)
-		iter_end = time.time()
-		logging.info(f"Iteration {i+1} done in {iter_end-iter_start:.2f} s.")
+			# Convert params to CAL format
+			t_cal = time.time()
+			convert_cal(output_cal_path, input_cal_path, current_params)
+			t_cal_done = time.time()
+			logging.info(f"  CAL conversion: {t_cal_done-t_cal:.2f} s")
+
+			iter_end = time.time()
+			logging.info(f"Iteration {i+1} done in {iter_end-iter_start:.2f} s.")
+		except KeyboardInterrupt:
+			logging.info("Optimization interrupted by user.")
+			break
 
 	t3 = time.time()
 	logging.info(f"Optimization finished in {t3-t2:.2f} s.")
