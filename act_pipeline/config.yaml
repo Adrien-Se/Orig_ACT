@@ -1,5 +1,5 @@
 converter_cal:
-  output_path: 'C:\Data\sandbox\ALE Core Calibration\AEE Calibration\Vehicle Calibrations\03 PSA\CDPO P74 2023\02 Calibrations\04 Rear\01 CAL Files\IPSP74______1FHHSHHB01RHHPHHEHM1.cal'
+  output_path: 'C:\Data\sandbox\ALE Core Calibration\AEE Calibration\Vehicle Calibrations\03 PSA\CDPO P74 2023\02 Calibrations\04 Rear\01 CAL Files\IPSP74______1FHHSHHB01RHHPHHEHM1_test.cal'
 converter_params:
   expected_group_of_params:
     group1:
@@ -25,7 +25,7 @@ loss_params:
   log_path: act_pipeline/data/log/loss_computation.log
 simulation:
   bch_path: act_pipeline/data/bch/pipeline_csh_list.bch
-  mac_exe: C:\Data\Sandbox\ALE Core Calibration\MAC_III_Tool\360x\bin\Mac.exe
+  mac_exe: c:\Data\sandbox\ALE Core Calibration\AEE Calibration\MAC_III_Tool\360x\bin\Mac.exe
   result_glob: xlsx/*.xlsx
   timeout_s: 300
   workdir: act_pipeline/data/
@@ -33,4 +33,4 @@ logging:
   log_path: act_pipeline/data/log/run_pipeline
   log_params_path: act_pipeline/data/log/calibration_params
 cal:
-  input_cal_path: 'C:\Data\sandbox\ALE Core Calibration\AEE Calibration\Vehicle Calibrations\03 PSA\CDPO P74 2023\02 Calibrations\04 Rear\01 CAL Files\IPSP74______1FHHSHHB01RHHPHHEHM1.cal'
+  input_cal_path: 'C:\Data\sandbox\ALE Core Calibration\AEE Calibration\Vehicle Calibrations\03 PSA\CDPO P74 2023\02 Calibrations\04 Rear\01 CAL Files\IPSP74______1FHHSHHB01RHHPHHEHM1_test.cal'
