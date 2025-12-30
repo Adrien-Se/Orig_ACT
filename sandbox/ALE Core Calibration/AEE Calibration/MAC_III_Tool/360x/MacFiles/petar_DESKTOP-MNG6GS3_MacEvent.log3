@@ -2,15 +2,15 @@
 
 
 *********************************************
-Tue Dec 16 09:36:56 2025
+Tue Dec 16 09:39:30 2025
 Mac III just started
 *********************************************
 Microsoft Windows 11 
 
-56 percent of memory is in use.
-Physical memory (Free/Total): 7349993472/16933867520 bytes. (43.4041 % of 16149.4 Mbytes.)
-Paging   memory (Free/Total): 12424695808/24718495744 bytes. (50.2648 % of 23573.4 Mbytes.)
-Virtual  memory (Free/Total): 140732986703872/140737488224256 bytes. (99.9968 % of 1.34218e+08 Mbytes.)
+57 percent of memory is in use.
+Physical memory (Free/Total): 7223767040/16933867520 bytes. (42.6587 % of 16149.4 Mbytes.)
+Paging   memory (Free/Total): 12276465664/24718495744 bytes. (49.6651 % of 23573.4 Mbytes.)
+Virtual  memory (Free/Total): 140732987322368/140737488224256 bytes. (99.9968 % of 1.34218e+08 Mbytes.)
 
 Number of processors: 16
  ( level = 6, revision = 42753 )

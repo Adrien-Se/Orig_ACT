@@ -14,10 +14,45 @@ from act_pipeline.kernel.simulation.runner import run_mac_batch
 from act_pipeline.kernel.optimization.saasbo import SaasboCalibrationOptimizer
 
 
+def log_params(params: dict[str, int], iteration:int, log_params_path: Path) -> None:
+	"""Format parameters dictionary into a string for logging."""
+	param_lines = [f"{key}: {value}" for key, value in params.items()]
+	log_str = "\n".join(param_lines)
+	log_params_path = Path(f"{log_params_path}_iteration_{iteration}.log")
+	with open(log_params_path, "a", encoding="utf-8") as f:
+		f.write(log_str + "\n")
+
+
 def main():
-	# Setup logging
-	logging_date_time = time.strftime("%Y%m%d-%H%M%S")
-	log_path = f"run_pipeline_{logging_date_time}.log"
+	"""Main function to run the ACT pipeline."""
+
+	#%% --- Config ---
+	config_path = Path(f"{Path(__file__).parent.parent}/config.yaml")
+	with open(config_path, "r", encoding="utf-8") as f:
+		config = yaml.safe_load(f)
+
+	def get_config(section, key):
+		if section not in config:
+			config[section] = {}
+		if key not in config[section]:
+			raise KeyError(f"Missing config key: {section}.{key}")
+		return config[section][key]
+
+	cal_path = Path(get_config("cal", "input_cal_path"))
+	rita_params_path = Path(get_config("converter_params", "rita_params_path"))
+	group_of_params = list(config["converter_params"].get("expected_group_of_params").keys())
+	output_cal_path = Path(get_config("converter_cal", "output_path"))
+	mac_exe = get_config("simulation", "mac_exe")
+	bch_path = Path(get_config("simulation", "bch_path"))
+	workdir = Path(get_config("simulation", "workdir"))
+	timeout_s = int(get_config("simulation", "timeout_s"))
+	result_glob = get_config("simulation", "result_glob")
+	sheet_name = get_config("converter_results", "sheet_name")
+	log_params_path = get_config("logging", "log_params_path")
+	log_path = get_config("logging", "log_path")
+	log_path = Path(f"{log_path}_{time.strftime("%Y%m%d-%H%M%S")}.log")
+
+	#%% --- Setup logging ---
 	logging.basicConfig(
 		level=logging.INFO,
 		format='%(asctime)s %(levelname)s: %(message)s',
@@ -26,32 +61,6 @@ def main():
 			logging.FileHandler(log_path, mode='w', encoding='utf-8')
 		]
 	)
-
-	# --- Config ---
-	config_path = Path(f"{Path(__file__).parent.parent}/config.yaml")
-	with open(config_path, "r", encoding="utf-8") as f:
-		config = yaml.safe_load(f)
-
-	def get_or_set_config(section, key, default):
-		if section not in config:
-			config[section] = {}
-		if key not in config[section]:
-			config[section][key] = default
-			with open(config_path, "w", encoding="utf-8") as f:
-				yaml.safe_dump(config, f)
-		return config[section][key]
-
-	cal_path = Path(get_or_set_config("converter_params", "input_cal_path", "data/cal/IPSP74______1FHHSHHB01RHHPHHEHM1.cal"))
-	rita_params_path = Path(get_or_set_config("converter_params", "rita_params_path", "data/json/SC2_RITA_params.json"))
-	group_of_params = list(config["converter_params"].get("expected_group_of_params", {}).keys())
-	input_cal_path = Path(get_or_set_config("converter_cal", "input_cal_path", str(cal_path)))
-	output_cal_path = Path(get_or_set_config("converter_cal", "output_path", "data/cal/new_calibration.cal"))
-	mac_exe = get_or_set_config("simulation", "mac_exe", "/path/to/mac.exe")
-	bch_path = Path(get_or_set_config("simulation", "bch_path", "data/bch/pipeline_csh_list.bch"))
-	workdir = Path(get_or_set_config("simulation", "workdir", "data/"))
-	timeout_s = int(get_or_set_config("simulation", "timeout_s", 300))
-	result_glob = get_or_set_config("simulation", "result_glob", "xlsx/*.xlsx")
-	sheet_name = get_or_set_config("converter_results", "sheet_name", "Sheet1")
 
 	# --- Step 1: Convert CAL to params ---
 	t0 = time.time()
@@ -104,9 +113,12 @@ def main():
 
 			# Convert params to CAL format
 			t_cal = time.time()
-			convert_cal(output_cal_path, input_cal_path, current_params)
+			convert_cal(output_cal_path, cal_path, current_params)
 			t_cal_done = time.time()
 			logging.info(f"  CAL conversion: {t_cal_done-t_cal:.2f} s")
+
+			# Log parameters
+			log_params(current_params, i+1, log_params_path)
 
 			iter_end = time.time()
 			logging.info(f"Iteration {i+1} done in {iter_end-iter_start:.2f} s.")

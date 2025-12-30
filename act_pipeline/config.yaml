@@ -1,6 +1,5 @@
 converter_cal:
-  input_cal_path: act_pipeline/data/cal/IPSP74______1FHHSHHB01RHHPHHEHM1.cal
-  output_path: act_pipeline/data/cal/new_calibration.cal
+  output_path: 'C:\Data\sandbox\ALE Core Calibration\AEE Calibration\Vehicle Calibrations\03 PSA\CDPO P74 2023\02 Calibrations\04 Rear\01 CAL Files\IPSP74______1FHHSHHB01RHHPHHEHM1.cal'
 converter_params:
   expected_group_of_params:
     group1:
@@ -18,7 +17,6 @@ converter_params:
     - Mode
     - Cross Immunity
     - Confirmation
-  input_cal_path: act_pipeline/data/cal/IPSP74______1FHHSHHB01RHHPHHEHM1.cal
   rita_params_path: act_pipeline/data/json/SC3_RITA_params.json
 converter_results:
   input_xlsx_path: act_pipeline/data/xlsx/results.xlsx
@@ -27,7 +25,12 @@ loss_params:
   log_path: act_pipeline/data/log/loss_computation.log
 simulation:
   bch_path: act_pipeline/data/bch/pipeline_csh_list.bch
-  mac_exe: /path/to/mac.exe
+  mac_exe: C:\Data\Sandbox\ALE Core Calibration\MAC_III_Tool\360x\bin\Mac.exe
   result_glob: xlsx/*.xlsx
   timeout_s: 300
   workdir: act_pipeline/data/
+logging:
+  log_path: act_pipeline/data/log/run_pipeline
+  log_params_path: act_pipeline/data/log/calibration_params
+cal:
+  input_cal_path: 'C:\Data\sandbox\ALE Core Calibration\AEE Calibration\Vehicle Calibrations\03 PSA\CDPO P74 2023\02 Calibrations\04 Rear\01 CAL Files\IPSP74______1FHHSHHB01RHHPHHEHM1.cal'
